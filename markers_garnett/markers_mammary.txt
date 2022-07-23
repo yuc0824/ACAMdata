@@ -1,0 +1,44 @@
+> Monocyte 
+ expressed:  Aldh1a3, Cd14, Cited1, Esr1, Kit, Pgr, Prlr, S100a6, Aldh1a3, Cd14, Kit, Aldh1a3, Cd14, Csn2, Glycam1, Kit, Lalba, Wap, Tyrobp, Fcer1g, H2-Eb1, Lsp1, Lyz2, H2-Aa, H2-Ab1, Ctss, Cd68, Cfp, Ms4a6c, C1qc, Lgmn, Ctsc, Pf4, Aif1, Grn, Selenop, Ccl6, Ifitm3, Fscn1, Tmem176b, Tmem123, Gadd45b, Lrg1, Ltf, Plet1, Csn3, Cldn3, Smim22, Cldn4, Fxyd3, Epcam, Prlr, Slc12a2, Tgm2, Ptn, Hspb1, Igfbp5, Wfdc2, Krt8, Mfge8, Slc25a17, Spint2, Phyh, Glul, H2bc4, Tmem176b, Mgst1, Slc25a39, Cd9, Tmed3, Atp1a1, Tceal9, Apobec3, Cd81, Lcn2, Wfdc18, Krt18, Clu, Tsc22d1, Fosb, Krt19, Dbi, Serinc3, Anxa2, Phlda1 
+ 
+> Hormone Sensing Differentiated Cell 
+ expressed:  Cited1, Esr1, Pgr, Prlr, S100a6 
+ 
+> Alveolar 
+ expressed:  Csn2, Glycam1, Lalba, Wap, Csn1s1, Csn2, Fxyd3, Hp, Krt18, Krt8, Igfbp5, Clu, Wfdc18, Mgst1, Trf, Csn3, Mfge8, Elf5, Epcam, Cldn3, Lmo4, Spint2, Ubd, Crip2, Tceal9, Cd9, Tmem176a, Lcn2, Tmem59 
+ 
+> Basal Cell 
+ expressed:  Acta2, Etv5, Krt14, Krt4, Pdpn, Gng11, Igfbp4, Procr, Zeb2 
+ 
+> Epithelial Cell 
+ expressed:  Acta2, Krt14, Krt4, Oxtr, Prlr, Fxyd2, Wfdc2, Krt19, Glul, Cd164, Krt18, Krt8, Tmed3, Cd9, Cd24a, AW112010, Hba-a1, Areg, Cited1, Calca, Gpx3, Rnf10, Tspan3, Epcam, Sae1, Mrpl34, Spint2, 1110004F10Rik, Mrpl13, Slc25a39, Commd3, Timm8b, Sdhb, Ezr, Cldn3, Tagln, Gm33651, Krt5, Ecrg4, Actg2, Mia, Igfbp2, Cxcl14, Cnn1, Krt14, Il17b, Mylk, Myl9, Tpm2, Tpm1, Apoc1, Lgals7, Csrp1, Nedd4, Rbp1, Hspb1, Mfge8, Col4a1, Lmo4, Col4a2, Serpinh1, Tceal9, Slc5a5, Tspan1, Krt7, Gipc2, Cldn4, Aqp5, Slc12a2, Cystm1, Fam25c, Ptn, Tgm2, Crip2, Cd200, Naxd, Gadd45g, H2bc4, Tmem176b, Tspan13, Acadl, Cnn3, Cnpy2, Id3, Tmem176a, Anxa1, Polr2f, Atp6v1g1, Tmem256, Cd63, Rnh1, Bsg, Rps27l, Prdx5, Cox17, Prdx6, Atox1, Uqcr11, Gpx4, Laptm4a, Skp1, Anxa2, Ctsd, Fgg, Ly6d, Tceal9, Atf3, Ifitm3, Mt1, S100a6, Atpif1, Prdx2, Ifitm2, Ly6a, Serinc3, Hmgn1, Uqcrb, Akr1a1, Ndufa7 
+ 
+> Fibroblast 
+ expressed:  Ctsk, Lum, Mmp2, Col1a2, Col3a1, Col1a1, Aebp1, Serpinf1, Igfbp7, Apod, Lpl, Dcn, Sparc, Gsn, C1s1, Mmp14, Nid1, Efemp1, Mfap2, Dpep1, Rarres2, Serping1, Fstl1, Loxl1, Dpt, Rnase4, Col6a3, Col6a1, Col5a2, Col6a2, Serpinh1, Ppic, Bgn, Itm2a, Rcn3, Mfap5, Col4a1, Igfbp4, Col4a2, Igfbp6, P4hb, Anxa5, Clec3b, Pcolce, Postn, Mgst1, Ctsl, Cd63, Laptm4a, Ifitm3, Ifitm2, Vim, Ctsb, Htra3, Fn1, Plpp3, S100a6, Mt1, Ly6a, Lgals1 
+ 
+> Muscle Cell 
+ expressed:  Ogn, Igfbp6, Ly6c1, Fstl1, Serping1, Timp2, Col3a1, Col1a2, Dpt, Gpx3, Mmp2, Mylk, Myl9, Cnn1, Hspb1, Acta2, Tpm2, S100a6, Sparc 
+ 
+> Mast Cell 
+ expressed:  Cpa3, Mrgprb1, Tpsb2, Cma1, Mcpt4, Serpinb1a, Gata2, Hdc 
+ 
+> T Cell 
+ expressed:  Trbc2 
+ 
+> Endothelial Cell 
+ expressed:  Fabp4, Ly6c1, Hspb1, Igfbp7, Cd36 
+ 
+> B Cell 
+ expressed:  Jchain, Cd79a 
+ 
+> Killer Cell 
+ expressed:  Ccl5, Tyrobp, Gzma, Nkg7 
+ 
+> Myeloid Leukocyte 
+ expressed:  Cdkn1a, Ctsc 
+ 
+> Dividing Cell 
+ expressed:  Banf1, Tuba1b 
+ 
+> Stem And Progenitor Cell 
+ expressed:  S100a4 
