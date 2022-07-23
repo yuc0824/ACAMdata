@@ -4,7 +4,7 @@ The source code and results of performance comparison of ACAM against Garnett, C
 
 ## Notes
 
-- Codes of our method are in the fold <./ACAM>. Codes of comparisons are in the fold <./compares>. 
+- Codes of our method are in the fold [ACAM](./ACAM/tree/main/ACAM). Codes of comparisons are in the fold [compares](./tree/main/compares). 
 - Since codes are the same among datasets, only the example of the kidney dataset is given. We split Wu dataset randomly into five equal-size subsets. Hence Wu is also given.
 - Packages you may need to install and functions we construct to conduct ACAM are in the fold function.
 - Markers of different forms to cater for the use of different methods. They are given in the fold begin with markers.
