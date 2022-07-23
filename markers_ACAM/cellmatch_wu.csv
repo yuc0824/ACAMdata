@@ -1,0 +1,3540 @@
+cellMarker,shortname
+ADCY3,Neuron
+ANO2,Neuron
+CNGA2,Neuron
+CNGA4,Neuron
+CNGB1,Neuron
+GNAL,Neuron
+NCAM1,Neuron
+NEUROG1,Neuron
+OMP,Neuron
+6330403K07RIK,Neuron
+AGAP2,Neuron
+AHI1,Neuron
+ARF3,Neuron
+ATP1A3,Neuron
+ATP1B1,Neuron
+BEX2,Neuron
+CAMK2A,Neuron
+CAMK2B,Neuron
+CAMK2N1,Neuron
+CELF4,Neuron
+CHD3,Neuron
+CNIH2,Neuron
+CPLX2,Neuron
+CTXN1,Neuron
+DYNLL2,Neuron
+FBXL16,Neuron
+GAP43,Neuron
+GNG13,Neuron
+HAP1,Neuron
+HPCAL4,Neuron
+KIF5A,Neuron
+KIF5C,Neuron
+LY6H,Neuron
+MAP1A,Neuron
+MAP1B,Neuron
+MAP2,Neuron
+MYT1L,Neuron
+NCDN,Neuron
+NEFL,Neuron
+NRGN,Neuron
+NRSN1,Neuron
+PCP4,Neuron
+PCSK1N,Neuron
+RAB3C,Neuron
+RASGEF1A,Neuron
+RPH3A,Neuron
+RTN1,Neuron
+S100B,Neuron
+SCG2,Neuron
+SEZ6,Neuron
+SNAP25,Neuron
+SNRPN,Neuron
+STMN2,Neuron
+STMN3,Neuron
+SYT1,Neuron
+TTC3,Neuron
+UNC13C,Neuron
+ACSL3,Astrocyte
+ACSL6,Astrocyte
+AGT,Astrocyte
+AQP4,Astrocyte
+ATP13A4,Astrocyte
+ATP1B2,Astrocyte
+BCAN,Astrocyte
+CLDN10,Astrocyte
+DCLK1,Astrocyte
+DDHD1,Astrocyte
+EDNRB,Astrocyte
+ENTPD2,Astrocyte
+EVA1A,Astrocyte
+FGFR3,Astrocyte
+FJX1,Astrocyte
+FUT9,Astrocyte
+FZD2,Astrocyte
+GJA1,Astrocyte
+GJB6,Astrocyte
+GM3764,Astrocyte
+GM9925,Astrocyte
+GPLD1,Astrocyte
+GPR37L1,Astrocyte
+GRIA2,Astrocyte
+HTRA1,Astrocyte
+ID4,Astrocyte
+LFNG,Astrocyte
+MFGE8,Astrocyte
+NKAIN4,Astrocyte
+NTSR2,Astrocyte
+PAQR7,Astrocyte
+PLA2G7,Astrocyte
+PLCD4,Astrocyte
+S1PR1,Astrocyte
+SDC4,Astrocyte
+SLC27A1,Astrocyte
+SLC39A12,Astrocyte
+SLC4A4,Astrocyte
+SLC6A1,Astrocyte
+SLC6A11,Astrocyte
+SLC7A10,Astrocyte
+SLC7A11,Astrocyte
+SOX9,Astrocyte
+TLCD1,Astrocyte
+TRIL,Astrocyte
+TRIM9,Astrocyte
+VEGFA,Astrocyte
+ABI3,Microglial Cell
+AIF1,Microglial Cell
+C1QA,Microglial Cell
+C1QB,Microglial Cell
+C1QC,Microglial Cell
+CCR5,Microglial Cell
+CD14,Microglial Cell
+CD37,Microglial Cell
+CD53,Microglial Cell
+CD68,Microglial Cell
+CSF1R,Microglial Cell
+CTSS,Microglial Cell
+CX3CR1,Microglial Cell
+CYTH4,Microglial Cell
+FCER1G,Microglial Cell
+FCGR3,Microglial Cell
+FCRLS,Microglial Cell
+GPR34,Microglial Cell
+HEXB,Microglial Cell
+HPGD,Microglial Cell
+HPGDS,Microglial Cell
+IL6RA,Microglial Cell
+INPP5D,Microglial Cell
+IRF8,Microglial Cell
+ITGAM,Microglial Cell
+LAIR1,Microglial Cell
+LAPTM5,Microglial Cell
+LPCAT2,Microglial Cell
+LTC4S,Microglial Cell
+LY86,Microglial Cell
+MAFB,Microglial Cell
+MPEG1,Microglial Cell
+NCF1,Microglial Cell
+OLFML3,Microglial Cell
+P2RY12,Microglial Cell
+P2RY13,Microglial Cell
+PLD4,Microglial Cell
+PTGS1,Microglial Cell
+RNASE4,Microglial Cell
+SELPLG,Microglial Cell
+SIGLECH,Microglial Cell
+SLCO2B1,Microglial Cell
+TGFBR1,Microglial Cell
+TMEM119,Microglial Cell
+TREM2,Microglial Cell
+TYROBP,Microglial Cell
+UNC93B1,Microglial Cell
+A930009A15RIK,Precursor Cell
+BRINP1,Precursor Cell
+C1QL1,Precursor Cell
+CACNG4,Precursor Cell
+CDO1,Precursor Cell
+CNTN1,Precursor Cell
+CSPG4,Precursor Cell
+EMID1,Precursor Cell
+ENPP2,Precursor Cell
+EPN2,Precursor Cell
+G0S2,Precursor Cell
+GJC3,Precursor Cell
+GPR17,Precursor Cell
+GRIA3,Precursor Cell
+GRIA4,Precursor Cell
+LRRN1,Precursor Cell
+MATN4,Precursor Cell
+MEGF11,Precursor Cell
+MYT1,Precursor Cell
+NAV1,Precursor Cell
+NEU4,Precursor Cell
+NXPH1,Precursor Cell
+OLIG1,Precursor Cell
+OLIG2,Precursor Cell
+PCDH15,Precursor Cell
+PDGFRA,Precursor Cell
+PHLDA1,Precursor Cell
+PLLP,Precursor Cell
+PPFIBP1,Precursor Cell
+PTPRE,Precursor Cell
+QPCT,Precursor Cell
+RAP1GAP,Precursor Cell
+RLBP1,Precursor Cell
+SEMA3D,Precursor Cell
+SH3BP4,Precursor Cell
+SLC1A1,Precursor Cell
+SLC35F1,Precursor Cell
+SNX22,Precursor Cell
+SOX10,Precursor Cell
+SULF2,Precursor Cell
+SUSD5,Precursor Cell
+TMEM255B,Precursor Cell
+TNR,Precursor Cell
+TPM1,Precursor Cell
+TRAF4,Precursor Cell
+TSPAN6,Precursor Cell
+VCAN,Precursor Cell
+APOD,Oligodendrocyte
+ASPA,Oligodendrocyte
+CCP110,Oligodendrocyte
+CLDN11,Oligodendrocyte
+CNTN2,Oligodendrocyte
+EFNB3,Oligodendrocyte
+ENPP2,Oligodendrocyte
+ERMN,Oligodendrocyte
+EVI2A,Oligodendrocyte
+FA2H,Oligodendrocyte
+GALNT6,Oligodendrocyte
+GJB1,Oligodendrocyte
+GJC2,Oligodendrocyte
+GJC3,Oligodendrocyte
+GPR37,Oligodendrocyte
+GRB14,Oligodendrocyte
+GSN,Oligodendrocyte
+HAPLN2,Oligodendrocyte
+JOSD2,Oligodendrocyte
+LGI3,Oligodendrocyte
+LPAR1,Oligodendrocyte
+MAG,Oligodendrocyte
+MAL,Oligodendrocyte
+MOG,Oligodendrocyte
+NDRG1,Oligodendrocyte
+OPALIN,Oligodendrocyte
+PDLIM2,Oligodendrocyte
+PEX5L,Oligodendrocyte
+PLEKHH1,Oligodendrocyte
+PLLP,Oligodendrocyte
+PLS1,Oligodendrocyte
+PPP1R14A,Oligodendrocyte
+PTGDS,Oligodendrocyte
+S1PR5,Oligodendrocyte
+SEPTIN4,Oligodendrocyte
+SLC12A2,Oligodendrocyte
+SMCO3,Oligodendrocyte
+STMN4,Oligodendrocyte
+TMEFF2,Oligodendrocyte
+TMEM125,Oligodendrocyte
+TMEM151A,Oligodendrocyte
+TMEM88B,Oligodendrocyte
+TNFAIP6,Oligodendrocyte
+TRF,Oligodendrocyte
+TRIM59,Oligodendrocyte
+TSPAN2,Oligodendrocyte
+TTLL7,Oligodendrocyte
+TUBB4A,Oligodendrocyte
+UGT8A,Oligodendrocyte
+ABCB1A,Endothelial Cell
+ABCG2,Endothelial Cell
+ACVRL1,Endothelial Cell
+CAR4,Endothelial Cell
+CDH5,Endothelial Cell
+CLDN5,Endothelial Cell
+CLIC5,Endothelial Cell
+CTLA2A,Endothelial Cell
+CXCL12,Endothelial Cell
+EGFL7,Endothelial Cell
+EMCN,Endothelial Cell
+ESAM,Endothelial Cell
+FLT1,Endothelial Cell
+FN1,Endothelial Cell
+FOXQ1,Endothelial Cell
+HSPB1,Endothelial Cell
+IFITM3,Endothelial Cell
+IGFBP7,Endothelial Cell
+ITM2A,Endothelial Cell
+KANK3,Endothelial Cell
+KITL,Endothelial Cell
+KLF2,Endothelial Cell
+LSR,Endothelial Cell
+LY6A,Endothelial Cell
+LY6C1,Endothelial Cell
+LY6C2,Endothelial Cell
+NOSTRIN,Endothelial Cell
+PALMD,Endothelial Cell
+PAQR5,Endothelial Cell
+PCP4L1,Endothelial Cell
+PECAM1,Endothelial Cell
+PGLYRP1,Endothelial Cell
+PLTP,Endothelial Cell
+PODXL,Endothelial Cell
+PTPRB,Endothelial Cell
+RAMP2,Endothelial Cell
+SEMA3C,Endothelial Cell
+SGMS1,Endothelial Cell
+SLC2A1,Endothelial Cell
+SLC9A3R2,Endothelial Cell
+SLCO1A4,Endothelial Cell
+SOX17,Endothelial Cell
+SRGN,Endothelial Cell
+TEK,Endothelial Cell
+TM4SF1,Endothelial Cell
+WFDC1,Endothelial Cell
+ACTA2,Mural Cell
+ARHGAP29,Mural Cell
+ASPN,Mural Cell
+BGN,Mural Cell
+CALD1,Mural Cell
+COLEC12,Mural Cell
+CP,Mural Cell
+CRIP1,Mural Cell
+ECM2,Mural Cell
+FILIP1L,Mural Cell
+GJA4,Mural Cell
+GJC1,Mural Cell
+GM13861,Mural Cell
+HIGD1B,Mural Cell
+HSPB1,Mural Cell
+IFITM1,Mural Cell
+IFITM2,Mural Cell
+IFITM3,Mural Cell
+IGF2,Mural Cell
+IGFBP7,Mural Cell
+KCNJ8,Mural Cell
+LMOD1,Mural Cell
+MAP3K7CL,Mural Cell
+MGP,Mural Cell
+MYH11,Mural Cell
+MYL9,Mural Cell
+MYLK,Mural Cell
+MYO1B,Mural Cell
+NBL1,Mural Cell
+NDUFA4L2,Mural Cell
+P2RY14,Mural Cell
+PCOLCE,Mural Cell
+PDGFRB,Mural Cell
+PERP,Mural Cell
+PHLDB2,Mural Cell
+PLN,Mural Cell
+RBPMS,Mural Cell
+RGS4,Mural Cell
+RGS5,Mural Cell
+S1PR3,Mural Cell
+SERPING1,Mural Cell
+SLC19A1,Mural Cell
+SLC38A11,Mural Cell
+SLC6A20A,Mural Cell
+TAGLN,Mural Cell
+TM4SF1,Mural Cell
+TPM2,Mural Cell
+VTN,Mural Cell
+ZIC1,Mural Cell
+ACVR2A,Neuron
+FGF10,Neuron
+FGF3,Neuron
+FGF8,Neuron
+HES5,Neuron
+NEUROG1,Neuron
+NOTCH1,Neuron
+SIX1,Neuron
+FBXO2,Otocyst Cell
+FZD8,Otocyst Cell
+GLI1,Otocyst Cell
+HES1,Otocyst Cell
+HEY2,Otocyst Cell
+LFNG,Otocyst Cell
+NTF3,Otocyst Cell
+OTOL1,Otocyst Cell
+OTX1,Otocyst Cell
+OTX2,Otocyst Cell
+PAX2,Otocyst Cell
+SOX2,Otocyst Cell
+TRPM3,Otocyst Cell
+EYA2,Neuron
+FZD10,Neuron
+ISL1,Neuron
+JAG2,Neuron
+NEUROD1,Neuron
+NEUROG2,Neuron
+BMP4,Otocyst Cell
+DLX5,Otocyst Cell
+EMX2,Otocyst Cell
+FGFR3,Otocyst Cell
+FST,Otocyst Cell
+GATA2,Otocyst Cell
+GBX2,Otocyst Cell
+INHBA,Otocyst Cell
+OC90,Otocyst Cell
+WNT2B,Otocyst Cell
+WNT7A,Otocyst Cell
+WNT7B,Otocyst Cell
+CCND2,Neuron
+CRMP1,Neuron
+DBN1,Neuron
+DCHS1,Neuron
+DLX1,Neuron
+DLX2,Neuron
+DLX5,Neuron
+DLX6,Neuron
+FOXC1,Neuron
+FXYD6,Neuron
+OLFM1,Neuron
+PFN2,Neuron
+POU3F3,Neuron
+SOX5,Neuron
+CD34,Endothelial Cell
+ENG,Endothelial Cell
+FLT1,Endothelial Cell
+FN1,Endothelial Cell
+KDR,Endothelial Cell
+TEK,Endothelial Cell
+ASPA,Otocyst Cell
+CLDN11,Otocyst Cell
+GAL3ST1,Otocyst Cell
+KCNA1,Otocyst Cell
+KCNA6,Otocyst Cell
+MAG,Otocyst Cell
+MOBP,Otocyst Cell
+MOG,Otocyst Cell
+OLIG1,Otocyst Cell
+SOX10,Otocyst Cell
+CPNE5,Chandelier Cell
+DUSP14,Chandelier Cell
+ERRFI1,Chandelier Cell
+FAM163B,Chandelier Cell
+FGF13,Chandelier Cell
+GDF10,Chandelier Cell
+GPR12,Chandelier Cell
+HAPLN1,Chandelier Cell
+HS3ST4,Chandelier Cell
+IBSP,Chandelier Cell
+IER2,Chandelier Cell
+KRT12,Chandelier Cell
+L2HGDH,Chandelier Cell
+MCTP2,Chandelier Cell
+NANP,Chandelier Cell
+NECAB2,Chandelier Cell
+PDE3A,Chandelier Cell
+PDLIM3,Chandelier Cell
+PELI1,Chandelier Cell
+PTHLH,Chandelier Cell
+PYGM,Chandelier Cell
+RAMP3,Chandelier Cell
+RASGRP1,Chandelier Cell
+TGFB3,Chandelier Cell
+THBS1,Chandelier Cell
+TRPS1,Chandelier Cell
+UNC5B,Chandelier Cell
+VCAN,Chandelier Cell
+CARTPT,Basket Cell
+COX6A2,Basket Cell
+EIF5A2,Basket Cell
+ESRRG,Basket Cell
+ETV6,Basket Cell
+FAM43A,Basket Cell
+HADHB,Basket Cell
+HAPLN4,Basket Cell
+IQGAP2,Basket Cell
+KCNJ9,Basket Cell
+MITF,Basket Cell
+MOXD1,Basket Cell
+NEFH,Basket Cell
+NOG,Basket Cell
+NXPH2,Basket Cell
+PRSS23,Basket Cell
+SLIT2,Basket Cell
+SLIT3,Basket Cell
+ST6GALNAC5,Basket Cell
+SYT2,Basket Cell
+TAC1,Basket Cell
+VAMP1,Basket Cell
+KCNMB4,Neuron
+1700086L19RIK,Neuron
+A930011G23RIK,Neuron
+ADAMTS16,Neuron
+ARHGDIG,Neuron
+ARHGEF15,Neuron
+ARL4A,Neuron
+ASS1,Neuron
+B2M,Neuron
+BACE2,Neuron
+CARHSP1,Neuron
+CHODL,Neuron
+CLIC1,Neuron
+CNIH3,Neuron
+COL11A1,Neuron
+CORT,Neuron
+CTXN2,Neuron
+D430019H16RIK,Neuron
+DBPHT2,Neuron
+DPY19L1,Neuron
+EGFL7,Neuron
+FNDC1,Neuron
+GABRA2,Neuron
+GABRG1,Neuron
+GPR88,Neuron
+HEY1,Neuron
+HTR1A,Neuron
+KCNMB4,Neuron
+NDRG1,Neuron
+NDST4,Neuron
+NNAT,Neuron
+NOS1,Neuron
+NPTX1,Neuron
+NTN1,Neuron
+OPN3,Neuron
+OXTR,Neuron
+PATL2,Neuron
+PNMA3,Neuron
+POU3F2,Neuron
+PREX1,Neuron
+PTN,Neuron
+PTPRU,Neuron
+RASGEF1B,Neuron
+RBP1,Neuron
+S100A10,Neuron
+SC5D,Neuron
+SFRP1,Neuron
+SLC5A5,Neuron
+SLC5A7,Neuron
+SLC7A3,Neuron
+SST,Neuron
+ST6GALNAC2,Neuron
+SV2B,Neuron
+TPPP3,Neuron
+TSPAN17,Neuron
+WNT2,Neuron
+WWC1,Neuron
+ANO3,Martinotti Cell
+ATP2B4,Martinotti Cell
+CAPN5,Martinotti Cell
+CDH22,Martinotti Cell
+CDH7,Martinotti Cell
+FOXRED2,Martinotti Cell
+HDAC4,Martinotti Cell
+HOPX,Martinotti Cell
+HPSE,Martinotti Cell
+IL34,Martinotti Cell
+KCNK13,Martinotti Cell
+LAMA4,Martinotti Cell
+LIPA,Martinotti Cell
+RASL11A,Martinotti Cell
+RELN,Martinotti Cell
+SGCD,Martinotti Cell
+SIRT4,Martinotti Cell
+SLC30A3,Martinotti Cell
+SNX8,Martinotti Cell
+TIMP3,Martinotti Cell
+UNC13C,Martinotti Cell
+ZDHHC18,Martinotti Cell
+CRACDL,Interneuron-selective Cell
+BCAR3,Interneuron-selective Cell
+CELSR3,Interneuron-selective Cell
+CHRNA4,Interneuron-selective Cell
+CPOX,Interneuron-selective Cell
+DLGAP3,Interneuron-selective Cell
+DOK7,Interneuron-selective Cell
+EGFR,Interneuron-selective Cell
+KCNH3,Interneuron-selective Cell
+LRRC3B,Interneuron-selective Cell
+MIAT,Interneuron-selective Cell
+NPY2R,Interneuron-selective Cell
+NR2E1,Interneuron-selective Cell
+OSTF1,Interneuron-selective Cell
+PTMS,Interneuron-selective Cell
+RASD2,Interneuron-selective Cell
+RGS16,Interneuron-selective Cell
+RPRM,Interneuron-selective Cell
+SEMA5B,Interneuron-selective Cell
+SLC12A4,Interneuron-selective Cell
+ST3GAL1,Interneuron-selective Cell
+TPBG,Interneuron-selective Cell
+UNC5A,Interneuron-selective Cell
+WSCD2,Interneuron-selective Cell
+CADPS2,Basket Cell
+CCND3,Basket Cell
+CNR1,Basket Cell
+COL15A1,Basket Cell
+CRYAB,Basket Cell
+CXCL14,Basket Cell
+EGLN3,Basket Cell
+EPS8,Basket Cell
+FAM163A,Basket Cell
+IL4RA,Basket Cell
+JAM2,Basket Cell
+KCNF1,Basket Cell
+LARP1B,Basket Cell
+LDB2,Basket Cell
+MXD1,Basket Cell
+PDE7B,Basket Cell
+PNOC,Basket Cell
+RAMP1,Basket Cell
+SCYL2,Basket Cell
+SH3BP4,Basket Cell
+SLC25A29,Basket Cell
+SNTB1,Basket Cell
+SP8,Basket Cell
+TAC2,Basket Cell
+UNK,Basket Cell
+USP53,Basket Cell
+ACTA2,Ependymal Cell
+CCDC153,Ependymal Cell
+CLU,Ependymal Cell
+FOXJ1,Ependymal Cell
+GJA1,Ependymal Cell
+MIA,Ependymal Cell
+RARRES2,Ependymal Cell
+S100B,Ependymal Cell
+SOX9,Ependymal Cell
+TM4SF1,Ependymal Cell
+TMEM212,Ependymal Cell
+ALDOC,Stem Cell
+ATP1A2,Stem Cell
+CLU,Stem Cell
+GJA1,Stem Cell
+HTRA1,Stem Cell
+MFGE8,Stem Cell
+NTM,Stem Cell
+NTSR2,Stem Cell
+S100B,Stem Cell
+SOX9,Stem Cell
+CSF3,Stem Cell
+FBXO2,Stem Cell
+FXYD1,Stem Cell
+GFAP,Stem Cell
+ID3,Stem Cell
+THBS4,Stem Cell
+PCLAF,Stem Cell
+CDK1,Stem Cell
+CENPF,Stem Cell
+H2AC24,Stem Cell
+HMGB2,Stem Cell
+TOP2A,Stem Cell
+BTG1,Neuron
+CELF4,Neuron
+DCX,Neuron
+MEIS2,Neuron
+STMN2,Neuron
+MBP,Oligodendrocyte
+OLIG1,Oligodendrocyte
+PLP1,Oligodendrocyte
+PTGDS,Oligodendrocyte
+SOX10,Oligodendrocyte
+C1QA,Microglial Cell
+C1QB,Microglial Cell
+C1QC,Microglial Cell
+CTSS,Microglial Cell
+CX3CR1,Microglial Cell
+0610030E20RIK,Neuron
+1110017D15RIK,Neuron
+1700025G04RIK,Neuron
+1700030K09RIK,Neuron
+1700066M21RIK,Neuron
+2310040G24RIK,Neuron
+2410004B18RIK,Neuron
+SPRING1,Neuron
+4930506C21RIK,Neuron
+4931428F04RIK,Neuron
+5031439G07RIK,Neuron
+6330409D20RIK,Neuron
+6430548M08RIK,Neuron
+9530082P21RIK,Neuron
+A230056P14RIK,Neuron
+A530058N18RIK,Neuron
+A930006K02RIK,Neuron
+AAR2,Neuron
+AARS2,Neuron
+ABCA2,Neuron
+ABCA3,Neuron
+ABCB7,Neuron
+ABCC8,Neuron
+ABCD2,Neuron
+ABCG4,Neuron
+ABT1,Neuron
+ACAA1A,Neuron
+ACP1,Neuron
+ADAMTS3,Neuron
+ADAMTS5,Neuron
+ADAP1,Neuron
+ADD2,Neuron
+ADD3,Neuron
+ADPRH,Neuron
+ADRA1D,Neuron
+ADSSL1,Neuron
+AF357359,Neuron
+AFAP1L1,Neuron
+AGL,Neuron
+AGTPBP1,Neuron
+AHCYL2,Neuron
+AI593442,Neuron
+AI854703,Neuron
+AIFM3,Neuron
+AK1,Neuron
+ALDH1A3,Neuron
+ALDOC,Neuron
+AMER2,Neuron
+AMIGO3,Neuron
+AMPH,Neuron
+ANGEL1,Neuron
+ANK1,Neuron
+ANK3,Neuron
+ANKDD1B,Neuron
+ANKRD33B,Neuron
+ANKRD34A,Neuron
+ANKRD34B,Neuron
+ANKRD55,Neuron
+ANKRD9,Neuron
+ANO4,Neuron
+AP5S1,Neuron
+APBB2,Neuron
+APC,Neuron
+APH1A,Neuron
+APOO,Neuron
+APTX,Neuron
+ARFGEF1,Neuron
+ARHGAP31,Neuron
+ARHGEF17,Neuron
+ARHGEF6,Neuron
+ARHGEF9,Neuron
+ARL4C,Neuron
+ARL6IP4,Neuron
+ARL8A,Neuron
+ARMC1,Neuron
+ASAH2,Neuron
+ASB13,Neuron
+ASB8,Neuron
+ATF4,Neuron
+ATF6B,Neuron
+ATG101,Neuron
+ATG16L1,Neuron
+ATG2B,Neuron
+ATG4D,Neuron
+ATM,Neuron
+ATP13A2,Neuron
+ATP2B3,Neuron
+ATP6V1G2,Neuron
+ATP8B2,Neuron
+ATXN1,Neuron
+ATXN2,Neuron
+ATXN7L3,Neuron
+AU022252,Neuron
+AUH,Neuron
+AUTS2,Neuron
+AVPI1,Neuron
+AZI2,Neuron
+AZIN1,Neuron
+B3GALT1,Neuron
+B3GALT2,Neuron
+B3GAT1,Neuron
+B3GNT2,Neuron
+B4GALNT1,Neuron
+B4GALT6,Neuron
+B4GALT7,Neuron
+B9D2,Neuron
+BCAN,Neuron
+BCAR3,Neuron
+BCAT1,Neuron
+BCKDHB,Neuron
+BEND6,Neuron
+BEST3,Neuron
+BFAR,Neuron
+BHLHE40,Neuron
+BIN1,Neuron
+BOLA3,Neuron
+BORCS6,Neuron
+BRMS1L,Neuron
+BRSK1,Neuron
+BRSK2,Neuron
+BTG1,Neuron
+CRACD,Neuron
+CABLES2,Neuron
+CABP1,Neuron
+CACNG2,Neuron
+CADM1,Neuron
+CALB1,Neuron
+CALB2,Neuron
+CAMK1D,Neuron
+CAMK2B,Neuron
+CAMK2G,Neuron
+CAMSAP1,Neuron
+CAP2,Neuron
+CAPN2,Neuron
+CAR12,Neuron
+CAR2,Neuron
+CAR7,Neuron
+CARS,Neuron
+CASKIN1,Neuron
+CAST,Neuron
+CASZ1,Neuron
+CAT,Neuron
+CC2D2A,Neuron
+CCBE1,Neuron
+CCDC136,Neuron
+KASH5,Neuron
+CCDC184,Neuron
+CCDC28A,Neuron
+CCDC88A,Neuron
+CCDC90B,Neuron
+CD302,Neuron
+CD59A,Neuron
+CDADC1,Neuron
+CDC37L1,Neuron
+CDC42EP3,Neuron
+CDH18,Neuron
+CDH9,Neuron
+CDK14,Neuron
+CDR1,Neuron
+CDR2L,Neuron
+CDS1,Neuron
+CEBPZOS,Neuron
+CELSR2,Neuron
+CENPQ,Neuron
+CEP57,Neuron
+CEP83,Neuron
+CEP97,Neuron
+CEPT1,Neuron
+CERK,Neuron
+CETN2,Neuron
+CFAP161,Neuron
+CHCHD10,Neuron
+CHCHD3,Neuron
+CHCHD4,Neuron
+CHCHD7,Neuron
+CHMP6,Neuron
+CHN1,Neuron
+CHORDC1,Neuron
+CHRAC1,Neuron
+CHST10,Neuron
+CHURC1,Neuron
+CIART,Neuron
+CIB2,Neuron
+CITED2,Neuron
+CKMT1,Neuron
+CKMT2,Neuron
+CLEC2L,Neuron
+CLGN,Neuron
+CLIP4,Neuron
+CLMP,Neuron
+CLSTN3,Neuron
+CLU,Neuron
+CMC1,Neuron
+CMC2,Neuron
+CMPK2,Neuron
+CNNM1,Neuron
+CNNM2,Neuron
+CNPPD1,Neuron
+CNTN5,Neuron
+CNTNAP1,Neuron
+CNTNAP4,Neuron
+COL19A1,Neuron
+COLGALT2,Neuron
+COMMD2,Neuron
+COMMD9,Neuron
+COPB2,Neuron
+COPRS,Neuron
+COPS7B,Neuron
+CORO6,Neuron
+COTL1,Neuron
+COX10,Neuron
+COX11,Neuron
+COX8B,Neuron
+CPEB3,Neuron
+CPNE9,Neuron
+CPT1A,Neuron
+CPT1B,Neuron
+CPTP,Neuron
+CRBN,Neuron
+CRLF3,Neuron
+CROT,Neuron
+CS,Neuron
+CSE1L,Neuron
+CSL,Neuron
+CSMD1,Neuron
+CSMD2,Neuron
+CST6,Neuron
+CSTF2,Neuron
+CTBP1,Neuron
+CUL3,Neuron
+CX3CL1,Neuron
+CYFIP2,Neuron
+CYGB,Neuron
+D17H6S53E,Neuron
+DBN1,Neuron
+DBNDD1,Neuron
+DCAF10,Neuron
+DCBLD2,Neuron
+DCHS1,Neuron
+DCLK2,Neuron
+DCP2,Neuron
+DCUN1D2,Neuron
+DDAH1,Neuron
+DDIT3,Neuron
+DDX1,Neuron
+DDX19B,Neuron
+DDX25,Neuron
+DDX27,Neuron
+DDX41,Neuron
+DEDD,Neuron
+DEF6,Neuron
+DENR,Neuron
+DEXI,Neuron
+DFFA,Neuron
+DHDDS,Neuron
+DHPS,Neuron
+DHRS1,Neuron
+DHRS11,Neuron
+DHX16,Neuron
+DIP2A,Neuron
+DIRAS1,Neuron
+DKC1,Neuron
+DLAT,Neuron
+DLD,Neuron
+DLGAP3,Neuron
+DLST,Neuron
+DNAJB14,Neuron
+DNAJC13,Neuron
+DNAJC27,Neuron
+DNAJC28,Neuron
+DOCK9,Neuron
+DSCAM,Neuron
+DTD2,Neuron
+DTNBP1,Neuron
+DUSP15,Neuron
+DUSP19,Neuron
+DUSP27,Neuron
+DUSP28,Neuron
+DYNC2H1,Neuron
+DZIP1,Neuron
+E130309D02RIK,Neuron
+E2F6,Neuron
+EBAG9,Neuron
+EFEMP1,Neuron
+EFR3B,Neuron
+EGLN2,Neuron
+EIF1AD,Neuron
+EIF2AK4,Neuron
+EIF2B4,Neuron
+EIF5A2,Neuron
+ELMO1,Neuron
+ELOVL4,Neuron
+ENAH,Neuron
+ENDOD1,Neuron
+ENO4,Neuron
+ENPP4,Neuron
+ENTPD3,Neuron
+ENTPD6,Neuron
+EPB41L1,Neuron
+EPB41L3,Neuron
+EPDR1,Neuron
+EPHA4,Neuron
+EPN3,Neuron
+ERAL1,Neuron
+ERICH3,Neuron
+ERN1,Neuron
+ESRRG,Neuron
+ESYT1,Neuron
+ETF1,Neuron
+ETHE1,Neuron
+EXOC5,Neuron
+EXT2,Neuron
+EXTL2,Neuron
+F8A,Neuron
+FA2H,Neuron
+FAAH,Neuron
+FAIM2,Neuron
+FAM126B,Neuron
+FAM13B,Neuron
+FAM155A,Neuron
+FAM184B,Neuron
+FAM189A2,Neuron
+FAM20C,Neuron
+FAM234B,Neuron
+FAM53B,Neuron
+TLCD3B,Neuron
+FAM78A,Neuron
+FAM98C,Neuron
+FARP2,Neuron
+FAT1,Neuron
+FAT3,Neuron
+FBXO31,Neuron
+FBXO32,Neuron
+FBXO33,Neuron
+FBXO34,Neuron
+FBXO40,Neuron
+FBXO41,Neuron
+FBXW7,Neuron
+FEZ2,Neuron
+FGF18,Neuron
+FGF9,Neuron
+CEP43,Neuron
+FH1,Neuron
+FHDC1,Neuron
+FHOD3,Neuron
+FIGN,Neuron
+FKBP1B,Neuron
+FLT3,Neuron
+FLYWCH1,Neuron
+FN3K,Neuron
+FNDC4,Neuron
+FRMD4B,Neuron
+FRMPD1,Neuron
+FSTL1,Neuron
+FUCA2,Neuron
+FUNDC2,Neuron
+FUOM,Neuron
+FUT8,Neuron
+G0S2,Neuron
+GADD45B,Neuron
+GALNT9,Neuron
+GART,Neuron
+GBE1,Neuron
+GCNT4,Neuron
+GCSH,Neuron
+GDPD1,Neuron
+GFOD1,Neuron
+GGA3,Neuron
+GIPC1,Neuron
+GLRX2,Neuron
+GLRX5,Neuron
+GLS,Neuron
+GLS2,Neuron
+GLUL,Neuron
+GM13629,Neuron
+GM19461,Neuron
+GM5113,Neuron
+GM9866,Neuron
+GMPR,Neuron
+GNAL,Neuron
+GNAZ,Neuron
+GNE,Neuron
+GNG7,Neuron
+GPAT4,Neuron
+GPATCH1,Neuron
+GPCPD1,Neuron
+GPD1L,Neuron
+GPR137B-PS,Neuron
+GPR22,Neuron
+GPRC5B,Neuron
+GRIA3,Neuron
+GRIA4,Neuron
+GRIN1,Neuron
+GRM7,Neuron
+GRSF1,Neuron
+GTF2H4,Neuron
+GTPBP3,Neuron
+GYG,Neuron
+GZF1,Neuron
+HAGHL,Neuron
+HAPLN1,Neuron
+HAPLN4,Neuron
+HCN1,Neuron
+HCN2,Neuron
+HDAC2,Neuron
+HDLBP,Neuron
+HEATR5A,Neuron
+HEBP2,Neuron
+HECW1,Neuron
+HERC3,Neuron
+HERPUD1,Neuron
+HHATL,Neuron
+HIF1AN,Neuron
+HIPK2,Neuron
+HIVEP2,Neuron
+HLF,Neuron
+HMG20B,Neuron
+HMGA1,Neuron
+HMGB3,Neuron
+HSD17B7,Neuron
+HSF4,Neuron
+HSPA4L,Neuron
+HSPH1,Neuron
+IFFO1,Neuron
+IFFO2,Neuron
+IFNGR2,Neuron
+IFRD1,Neuron
+IGSF3,Neuron
+INPP1,Neuron
+INPP5E,Neuron
+INPP5F,Neuron
+INPP5J,Neuron
+IPO11,Neuron
+IPPK,Neuron
+IPW,Neuron
+IQGAP1,Neuron
+IQSEC2,Neuron
+IRS2,Neuron
+ISCA2,Neuron
+ISL2,Neuron
+ISY1,Neuron
+ITFG2,Neuron
+ITPKC,Neuron
+JAK1,Neuron
+JSRP1,Neuron
+JTB,Neuron
+JUN,Neuron
+KALRN,Neuron
+KANK1,Neuron
+KANK4,Neuron
+KAT6A,Neuron
+KBTBD2,Neuron
+KCNA1,Neuron
+KCNA2,Neuron
+KCNAB2,Neuron
+KCNAB3,Neuron
+KCNC1,Neuron
+KCNC3,Neuron
+KCNH5,Neuron
+KCNIP1,Neuron
+KCNIP2,Neuron
+KCNIP3,Neuron
+KCNK1,Neuron
+KCNK10,Neuron
+KCNMA1,Neuron
+KCNN2,Neuron
+KCNS1,Neuron
+KCNS3,Neuron
+KCTD1,Neuron
+KCTD17,Neuron
+KCTD7,Neuron
+KCTD8,Neuron
+KDM7A,Neuron
+KIF3A,Neuron
+KIF5C,Neuron
+KIFC2,Neuron
+KLC2,Neuron
+KLF9,Neuron
+KLHDC8A,Neuron
+KLHL32,Neuron
+KNDC1,Neuron
+KPNA6,Neuron
+KRT222,Neuron
+LARP1B,Neuron
+LATS1,Neuron
+LDB3,Neuron
+LGI2,Neuron
+LGI3,Neuron
+LGR5,Neuron
+LHFP,Neuron
+LHFPL3,Neuron
+LHFPL4,Neuron
+LIMK1,Neuron
+LINGO1,Neuron
+LLPH,Neuron
+LMBR1,Neuron
+LMCD1,Neuron
+LMO1,Neuron
+LONRF2,Neuron
+LPCAT4,Neuron
+LPIN1,Neuron
+LRCH1,Neuron
+LRP11,Neuron
+LRRC45,Neuron
+LRRN3,Neuron
+LSAMP,Neuron
+LSM3,Neuron
+LSMEM1,Neuron
+LUZP1,Neuron
+LYNX1,Neuron
+LYPLA1,Neuron
+LYSMD2,Neuron
+MACROD1,Neuron
+MAGEE1,Neuron
+MAMLD1,Neuron
+MAP3K10,Neuron
+MAP4K2,Neuron
+MAP6,Neuron
+MAP7D1,Neuron
+MAPK12,Neuron
+MAPK6,Neuron
+MAPKAPK2,Neuron
+MAPKAPK3,Neuron
+MAPRE3,Neuron
+MARK4,Neuron
+MAST1,Neuron
+MAX,Neuron
+MCF2L,Neuron
+MCL1,Neuron
+MCTS1,Neuron
+MCU,Neuron
+ME3,Neuron
+MECP2,Neuron
+MED24,Neuron
+MED7,Neuron
+MEN1,Neuron
+METTL14,Neuron
+METTL21A,Neuron
+METTL22,Neuron
+MFHAS1,Neuron
+MFN2,Neuron
+MGAT3,Neuron
+MGST3,Neuron
+MIF,Neuron
+MIPEP,Neuron
+MITD1,Neuron
+MLLT3,Neuron
+MLXIP,Neuron
+MMP15,Neuron
+MOB2,Neuron
+MON1A,Neuron
+MORC3,Neuron
+MOSPD1,Neuron
+MPC1,Neuron
+MPI,Neuron
+MPPE1,Neuron
+MPRIP,Neuron
+MRPL11,Neuron
+MRPL18,Neuron
+MRPL4,Neuron
+MRPL42,Neuron
+MRPL45,Neuron
+MRPS16,Neuron
+MRPS17,Neuron
+MRPS2,Neuron
+MRPS36,Neuron
+MRPS6,Neuron
+MRPS9,Neuron
+MRS2,Neuron
+MSANTD3,Neuron
+MSANTD4,Neuron
+MSH3,Neuron
+MSH6,Neuron
+MSL3,Neuron
+MT1,Neuron
+MT3,Neuron
+MTAP,Neuron
+MTFP1,Neuron
+MTFR1,Neuron
+MTIF3,Neuron
+MTMR6,Neuron
+MTUS1,Neuron
+MTUS2,Neuron
+MTX1,Neuron
+MUL1,Neuron
+MVB12B,Neuron
+MYADML2,Neuron
+MYH10,Neuron
+MYH7B,Neuron
+MYO16,Neuron
+MYO19,Neuron
+MYRIP,Neuron
+NAA35,Neuron
+NACAD,Neuron
+NAE1,Neuron
+NAP1L2,Neuron
+NAT8L,Neuron
+NCAPH2,Neuron
+NCKAP1,Neuron
+NCKIPSD,Neuron
+NDFIP2,Neuron
+NDRG3,Neuron
+NDUFAF2,Neuron
+NDUFAF4,Neuron
+NDUFC2,Neuron
+NEDD9,Neuron
+NET1,Neuron
+NEXN,Neuron
+NFATC2,Neuron
+NFKB1,Neuron
+NIT1,Neuron
+NKIRAS1,Neuron
+NKRF,Neuron
+NMNAT1,Neuron
+NMRK1,Neuron
+NOL4,Neuron
+NOP56,Neuron
+NOP9,Neuron
+NOS1,Neuron
+NR1D2,Neuron
+NR2F6,Neuron
+NRG1,Neuron
+NRP2,Neuron
+NSA2,Neuron
+NSMAF,Neuron
+NT5C3,Neuron
+NTM,Neuron
+NUAK1,Neuron
+NUDT19,Neuron
+NUPL1,Neuron
+OGFR,Neuron
+OLA1,Neuron
+OLFM3,Neuron
+OPRL1,Neuron
+OSBP2,Neuron
+OSBPL1A,Neuron
+OSBPL3,Neuron
+OSTF1,Neuron
+OXNAD1,Neuron
+P2RX6,Neuron
+PACS2,Neuron
+PACSIN1,Neuron
+PAFAH1B1,Neuron
+PAK1,Neuron
+PANX1,Neuron
+PANX2,Neuron
+PAQR4,Neuron
+PAQR7,Neuron
+PAQR8,Neuron
+PAQR9,Neuron
+PARD6A,Neuron
+PARP1,Neuron
+PARVA,Neuron
+PATL1,Neuron
+PBX1,Neuron
+PCBP4,Neuron
+PCGF1,Neuron
+PCM1,Neuron
+PCNX2,Neuron
+PCSK2,Neuron
+PCSK5,Neuron
+PCTP,Neuron
+PCYT1A,Neuron
+PCYT1B,Neuron
+PDP1,Neuron
+PDXP,Neuron
+PDZD2,Neuron
+PEAK1,Neuron
+PECR,Neuron
+PEG13,Neuron
+PEG3,Neuron
+PET100,Neuron
+PFKFB2,Neuron
+PFKM,Neuron
+PFKP,Neuron
+PGBD5,Neuron
+PGD,Neuron
+PGF,Neuron
+PGM2L1,Neuron
+PHF24,Neuron
+PHKA1,Neuron
+PHLDA3,Neuron
+PHYHIP,Neuron
+PIGC,Neuron
+PIK3C2B,Neuron
+PIK3CB,Neuron
+PIK3R1,Neuron
+PIK3R4,Neuron
+PIM3,Neuron
+PIP4K2A,Neuron
+PITPNA,Neuron
+PITPNC1,Neuron
+PLCB1,Neuron
+PLCL1,Neuron
+PLD5,Neuron
+PLEKHA2,Neuron
+PLEKHM3,Neuron
+PLPPR3,Neuron
+PLVAP,Neuron
+PLXNA4,Neuron
+PNKD,Neuron
+PNPLA3,Neuron
+POLDIP2,Neuron
+POLR3B,Neuron
+POP5,Neuron
+PPA2,Neuron
+PPARGC1A,Neuron
+PPARGC1B,Neuron
+PPCS,Neuron
+PPID,Neuron
+PPIF,Neuron
+PPIP5K1,Neuron
+PPIP5K2,Neuron
+PPM1B,Neuron
+PPM1E,Neuron
+PPM1J,Neuron
+PPP1R12C,Neuron
+PPP1R16B,Neuron
+PPP1R7,Neuron
+PPP1R8,Neuron
+PPP1R9A,Neuron
+PPP2R2B,Neuron
+PPP2R2C,Neuron
+PPP2R5E,Neuron
+PPP3CC,Neuron
+PPTC7,Neuron
+PREPL,Neuron
+PRKAG1,Neuron
+PRKAR2B,Neuron
+PRKCB,Neuron
+PRMT9,Neuron
+PROX1,Neuron
+PRPF19,Neuron
+PRPS1,Neuron
+PRR3,Neuron
+PRRT3,Neuron
+PSMB10,Neuron
+PSMD5,Neuron
+PSME3,Neuron
+PSMF1,Neuron
+PSMG3,Neuron
+PTCD1,Neuron
+PTCD2,Neuron
+PTDSS2,Neuron
+PTEN,Neuron
+PTGR2,Neuron
+PTPMT1,Neuron
+PTPN3,Neuron
+PTPRR,Neuron
+PTRH2,Neuron
+QRICH1,Neuron
+R3HCC1,Neuron
+RAB11FIP4,Neuron
+RAB11FIP5,Neuron
+RAB15,Neuron
+RAB3IP,Neuron
+RAB6B,Neuron
+RABGAP1L,Neuron
+RABGEF1,Neuron
+RABL2,Neuron
+RAD21,Neuron
+RALB,Neuron
+RANBP6,Neuron
+RAP1A,Neuron
+RAP2A,Neuron
+RAPGEF4,Neuron
+RARS2,Neuron
+RASGRP2,Neuron
+RASGRP4,Neuron
+RASL10B,Neuron
+RASSF4,Neuron
+RBFOX3,Neuron
+RCAN1,Neuron
+RCAN2,Neuron
+RCBTB1,Neuron
+RCC2,Neuron
+RDH14,Neuron
+RDM1,Neuron
+REEP1,Neuron
+REEP2,Neuron
+REEP3,Neuron
+REEP5,Neuron
+RELT,Neuron
+RESP18,Neuron
+RGMA,Neuron
+RGS2,Neuron
+RGS7BP,Neuron
+RHOBTB2,Neuron
+RHOF,Neuron
+RIMKLA,Neuron
+RIOK3,Neuron
+RITA1,Neuron
+RND2,Neuron
+RNF11,Neuron
+RNF115,Neuron
+RNF121,Neuron
+RNF123,Neuron
+RNF157,Neuron
+RNF208,Neuron
+OBI1,Neuron
+RNF26,Neuron
+RNF40,Neuron
+ROBO1,Neuron
+RORA,Neuron
+RPAP3,Neuron
+RPL7L1,Neuron
+RPP21,Neuron
+RPS6KA1,Neuron
+RPS6KA2,Neuron
+RTCA,Neuron
+RTKN,Neuron
+RTN2,Neuron
+RTN4IP1,Neuron
+RTN4RL1,Neuron
+RTN4RL2,Neuron
+RUBCN,Neuron
+RUNX1,Neuron
+RUNX1T1,Neuron
+RUSC2,Neuron
+RYR2,Neuron
+S100B,Neuron
+SCARB2,Neuron
+SCG3,Neuron
+SCLY,Neuron
+SCN1A,Neuron
+SCN1B,Neuron
+SCN4B,Neuron
+SCN8A,Neuron
+SCRT1,Neuron
+SDC4,Neuron
+SEC31A,Neuron
+SEH1L,Neuron
+SEMA3D,Neuron
+SEMA3E,Neuron
+SEMA6B,Neuron
+SEMA7A,Neuron
+SEPHS2,Neuron
+SEPTIN4,Neuron
+SEPTIN6,Neuron
+SERP2,Neuron
+SERTM1,Neuron
+SETX,Neuron
+SEZ6L2,Neuron
+SF3A2,Neuron
+SFMBT1,Neuron
+SFXN3,Neuron
+SFXN5,Neuron
+SGSM1,Neuron
+SH2D7,Neuron
+SH3BGR,Neuron
+SH3BP1,Neuron
+SH3BP5L,Neuron
+SHB,Neuron
+SHD,Neuron
+SHISA4,Neuron
+SIAH3,Neuron
+SIRT5,Neuron
+SIX4,Neuron
+SLC11A2,Neuron
+SLC16A1,Neuron
+SLC17A7,Neuron
+SLC19A2,Neuron
+SLC20A1,Neuron
+SLC20A2,Neuron
+SLC22A15,Neuron
+SLC22A23,Neuron
+SLC25A14,Neuron
+SLC25A25,Neuron
+SLC25A36,Neuron
+SLC25A46,Neuron
+SLC25A51,Neuron
+SLC27A4,Neuron
+SLC29A2,Neuron
+SLC35A3,Neuron
+SLC35B4,Neuron
+SLC35G2,Neuron
+SLC46A1,Neuron
+SLC48A1,Neuron
+SLC4A2,Neuron
+SLC4A8,Neuron
+SLC6A17,Neuron
+SLC7A1,Neuron
+SLC9A3R2,Neuron
+SLCO5A1,Neuron
+SLITRK1,Neuron
+SMARCA5,Neuron
+SMARCAL1,Neuron
+SMIM13,Neuron
+SMPX,Neuron
+SNCB,Neuron
+SNN,Neuron
+SNPH,Neuron
+SNRPD3,Neuron
+SNTG2,Neuron
+SNX27,Neuron
+SORBS1,Neuron
+SOWAHB,Neuron
+SPATA13,Neuron
+SPECC1,Neuron
+SPHK1,Neuron
+SPIRE2,Neuron
+SPOCK1,Neuron
+SPOCK2,Neuron
+SPPL2A,Neuron
+SPR,Neuron
+SPSB4,Neuron
+SPTB,Neuron
+SPTBN2,Neuron
+SPTBN4,Neuron
+SPTSSB,Neuron
+SRRM4,Neuron
+SSBP3,Neuron
+ST3GAL1,Neuron
+ST3GAL2,Neuron
+ST3GAL3,Neuron
+ST3GAL5,Neuron
+ST3GAL6,Neuron
+STARD3,Neuron
+STEAP2,Neuron
+STK24,Neuron
+STK40,Neuron
+STRIP2,Neuron
+STX1B,Neuron
+STXBP5L,Neuron
+SUCLA2,Neuron
+SUGP2,Neuron
+SULF2,Neuron
+SUN2,Neuron
+SUSD6,Neuron
+SV2B,Neuron
+SV2C,Neuron
+SYAP1,Neuron
+SYDE1,Neuron
+SYMPK,Neuron
+SYNE1,Neuron
+SYNJ2,Neuron
+SYNJ2BP,Neuron
+SYNM,Neuron
+SYS1,Neuron
+SYT12,Neuron
+SYT2,Neuron
+SYT3,Neuron
+SYT7,Neuron
+TAB1,Neuron
+TACC2,Neuron
+TAGAP1,Neuron
+TAGLN3,Neuron
+TBC1D30,Neuron
+TBC1D4,Neuron
+TCEA2,Neuron
+TCN2,Neuron
+TDP2,Neuron
+TECPR2,Neuron
+TESC,Neuron
+TET1,Neuron
+TFDP2,Neuron
+TFIP11,Neuron
+TGFBR3,Neuron
+THAP11,Neuron
+THOC1,Neuron
+THOC5,Neuron
+THRB,Neuron
+THSD7B,Neuron
+THTPA,Neuron
+THY1,Neuron
+TIMM10,Neuron
+TINF2,Neuron
+TIRAP,Neuron
+TLR5,Neuron
+TM6SF1,Neuron
+TMEM135,Neuron
+TMEM179,Neuron
+TMEM181C-PS,Neuron
+TMEM184C,Neuron
+TMEM196,Neuron
+TMEM222,Neuron
+TMEM229B,Neuron
+TMEM240,Neuron
+PGAP4,Neuron
+TMEM29,Neuron
+TMEM41A,Neuron
+TMEM63B,Neuron
+TMEM70,Neuron
+TMEM94,Neuron
+TMOD1,Neuron
+TNFRSF21,Neuron
+TOB1,Neuron
+TOMM5,Neuron
+TOP1,Neuron
+TOR2A,Neuron
+TPBGL,Neuron
+TPGS2,Neuron
+TPM1,Neuron
+TRAF3,Neuron
+TRHDE,Neuron
+TRIM36,Neuron
+TRIM37,Neuron
+TRMT13,Neuron
+TRPM2,Neuron
+TSC22D3,Neuron
+TSC22D4,Neuron
+TSKU,Neuron
+TSPAN17,Neuron
+TSPYL5,Neuron
+TSTD3,Neuron
+TTBK1,Neuron
+TTC1,Neuron
+TTC13,Neuron
+TTC17,Neuron
+TTC39A,Neuron
+TTC39AOS1,Neuron
+TTC39B,Neuron
+TTC9B,Neuron
+TTLL5,Neuron
+TUBGCP3,Neuron
+TUBGCP5,Neuron
+UAP1,Neuron
+UBE2E2,Neuron
+UBE2N,Neuron
+UBE2Q2,Neuron
+UBE2V2,Neuron
+UBE3B,Neuron
+UBL4A,Neuron
+UCHL5,Neuron
+UGCG,Neuron
+UGP2,Neuron
+UGT8A,Neuron
+UHMK1,Neuron
+ULK1,Neuron
+UNC5A,Neuron
+UQCC1,Neuron
+USP10,Neuron
+USP14,Neuron
+USP2,Neuron
+USP33,Neuron
+USP47,Neuron
+USP6NL,Neuron
+USP8,Neuron
+USPL1,Neuron
+UVRAG,Neuron
+VARS,Neuron
+VDAC2,Neuron
+VEGFA,Neuron
+VKORC1L1,Neuron
+VPS36,Neuron
+VPS52,Neuron
+VSNL1,Neuron
+VSTM5,Neuron
+VTI1A,Neuron
+VWA7,Neuron
+WDR26,Neuron
+WDR75,Neuron
+WEE1,Neuron
+WFS1,Neuron
+WIPF3,Neuron
+WWP1,Neuron
+XYLT2,Neuron
+YARS2,Neuron
+YIPF1,Neuron
+YPEL4,Neuron
+YTHDC2,Neuron
+YTHDF1,Neuron
+YTHDF3,Neuron
+ZBTB17,Neuron
+ZCCHC2,Neuron
+ZCRB1,Neuron
+ZDHHC1,Neuron
+ZDHHC5,Neuron
+ZFP157,Neuron
+ZFP2,Neuron
+ZFP24,Neuron
+ZFP30,Neuron
+ZFP322A,Neuron
+ZFP354C,Neuron
+ZFP385A,Neuron
+ZFP397,Neuron
+ZFP422,Neuron
+ZFP426,Neuron
+ZFP511,Neuron
+ZFP521,Neuron
+ZFP62,Neuron
+ZFP672,Neuron
+ZFP687,Neuron
+ZFP770,Neuron
+ZFP804A,Neuron
+ZFP930,Neuron
+ZFP935,Neuron
+ZFP958,Neuron
+ZFYVE28,Neuron
+ZRSR2,Neuron
+ZSCAN21,Neuron
+ZYX,Neuron
+FAM174C,Neuron
+1600029O15RIK,Neuron
+1700001K19RIK,Neuron
+1700006F04RIK,Neuron
+1700019D03RIK,Neuron
+EFCAB15,Neuron
+2610001J05RIK,Neuron
+2900026A02RIK,Neuron
+4930480K15RIK,Neuron
+9230102O04RIK,Neuron
+9430038I01RIK,Neuron
+9430091E24RIK,Neuron
+A430035B10RIK,Neuron
+A930011G23RIK,Neuron
+ABCB1A,Neuron
+ABHD2,Neuron
+ABHD4,Neuron
+ACADL,Neuron
+ACTN2,Neuron
+ACVR2A,Neuron
+ADAM17,Neuron
+ADAM19,Neuron
+ADAMTSL5,Neuron
+ADARB2,Neuron
+ADCY2,Neuron
+ADGRB1,Neuron
+ADM,Neuron
+AFF3,Neuron
+AGPAT3,Neuron
+AGPAT4,Neuron
+AGTRAP,Neuron
+AI413582,Neuron
+AKAP13,Neuron
+ALCAM,Neuron
+ALDOART2,Neuron
+ALKBH1,Neuron
+ALKBH2,Neuron
+ANO2,Neuron
+ANTXR2,Neuron
+APAF1,Neuron
+APOBEC1,Neuron
+ARAP2,Neuron
+ARHGAP27,Neuron
+ARHGAP27OS3,Neuron
+ARHGAP36,Neuron
+ARHGAP39,Neuron
+ARHGEF28,Neuron
+ARNT2,Neuron
+ARPC5,Neuron
+ASAP3,Neuron
+ASB1,Neuron
+ASCL2,Neuron
+ASL,Neuron
+ASPHD2,Neuron
+ASS1,Neuron
+ASTN2,Neuron
+ATG16L2,Neuron
+ATP10D,Neuron
+ATP2B4,Neuron
+B230216N24RIK,Neuron
+BAALC,Neuron
+BEAN1,Neuron
+BEX1,Neuron
+BEX4,Neuron
+BGN,Neuron
+BMP7,Neuron
+BMPR1A,Neuron
+CABIN1,Neuron
+CACHD1,Neuron
+CACNA1E,Neuron
+CACNA2D1,Neuron
+CACNA2D2,Neuron
+CACNG5,Neuron
+CAMK1G,Neuron
+CAPN5,Neuron
+CBLB,Neuron
+CBX4,Neuron
+CCDC112,Neuron
+CCDC167,Neuron
+CCDC22,Neuron
+CCDC28B,Neuron
+CCDC77,Neuron
+CD200,Neuron
+CD47,Neuron
+CD63,Neuron
+CD74,Neuron
+CES2G,Neuron
+CFLAR,Neuron
+CHD3,Neuron
+CHMP1A,Neuron
+CHN2,Neuron
+CHTOP,Neuron
+CILP,Neuron
+CKAP4,Neuron
+CLCN1,Neuron
+CLDN9,Neuron
+CLIC1,Neuron
+CLINT1,Neuron
+CMTM4,Neuron
+CNKSR2,Neuron
+CNOT8,Neuron
+CNTNAP5B,Neuron
+COL28A1,Neuron
+COMMD7,Neuron
+CPNE1,Neuron
+CPNE8,Neuron
+CPSF3,Neuron
+CRABP1,Neuron
+CRIP2,Neuron
+CRISPLD1,Neuron
+CRTAC1,Neuron
+CSF1R,Neuron
+CSRP1,Neuron
+CTC1,Neuron
+CTHRC1,Neuron
+CTNNA1,Neuron
+CUX2,Neuron
+CWC22,Neuron
+CYB5A,Neuron
+CYP39A1,Neuron
+D030028A08RIK,Neuron
+DEFB47,Neuron
+DGKH,Neuron
+DLG5,Neuron
+DMD,Neuron
+DNPH1,Neuron
+DOK6,Neuron
+DOK7,Neuron
+DONSON,Neuron
+DPYSL3,Neuron
+DUBR,Neuron
+DUPD1,Neuron
+DUSP11,Neuron
+E230016M11RIK,Neuron
+EBF4,Neuron
+EDARADD,Neuron
+EEF2KMT,Neuron
+EFEMP2,Neuron
+EFNA5,Neuron
+EFNB1,Neuron
+EFS,Neuron
+EGFL7,Neuron
+ELOVL1,Neuron
+ELP4,Neuron
+EML1,Neuron
+EML6,Neuron
+EPB41,Neuron
+EPB41L4A,Neuron
+EPHA8,Neuron
+EPHB2,Neuron
+EPN2,Neuron
+EPS15,Neuron
+ERC1,Neuron
+ERLIN2,Neuron
+EZR,Neuron
+F11R,Neuron
+F2R,Neuron
+FAM117A,Neuron
+FAM178B,Neuron
+FAM20A,Neuron
+FAM219B,Neuron
+FAM227A,Neuron
+FBLN5,Neuron
+FBLN7,Neuron
+FBN2,Neuron
+FBXW17,Neuron
+FDFT1,Neuron
+FDXR,Neuron
+FES,Neuron
+FGD2,Neuron
+FGFR3,Neuron
+FIRRE,Neuron
+FLNB,Neuron
+FLOT2,Neuron
+FLRT3,Neuron
+FLYWCH2,Neuron
+FMOD,Neuron
+FNBP1,Neuron
+FNBP1L,Neuron
+FOXJ2,Neuron
+FPGT,Neuron
+FRAT1,Neuron
+FRMD8,Neuron
+FSTL4,Neuron
+FSTL5,Neuron
+FUBP3,Neuron
+FURIN,Neuron
+FUT9,Neuron
+FXYD2,Neuron
+FXYD6,Neuron
+GABPA,Neuron
+GABRB2,Neuron
+GABRG2,Neuron
+GADD45G,Neuron
+GALNT5,Neuron
+GAP43,Neuron
+GATA2,Neuron
+GFRA1,Neuron
+GLDN,Neuron
+GM10578,Neuron
+GM16023,Neuron
+GM16070,Neuron
+GM19522,Neuron
+GM5148,Neuron
+GM5532,Neuron
+GM6498,Neuron
+GM6548,Neuron
+GMPPA,Neuron
+GNAO1,Neuron
+GNB4,Neuron
+GNG10,Neuron
+GNG2,Neuron
+GPD2,Neuron
+GPR149,Neuron
+GPR37,Neuron
+GPR88,Neuron
+GPRASP2,Neuron
+GPRC5C,Neuron
+GPSM1,Neuron
+GPSM2,Neuron
+GPX8,Neuron
+GREB1L,Neuron
+GRHL1,Neuron
+GRIK3,Neuron
+GRIN2C,Neuron
+GRIN3A,Neuron
+GSTP1,Neuron
+GTF2IRD1,Neuron
+GTF3A,Neuron
+H2-AA,Neuron
+H2-AB1,Neuron
+H2-D1,Neuron
+H2-DMB1,Neuron
+H2-DMB2,Neuron
+HACD4,Neuron
+HAMP,Neuron
+HEY1,Neuron
+HMGA2-PS1,Neuron
+HMGN1,Neuron
+HMGN2,Neuron
+HMGN3,Neuron
+HNRNPH3,Neuron
+HPCA,Neuron
+HPCAL1,Neuron
+HS6ST3,Neuron
+HSPB1,Neuron
+HTR7,Neuron
+HYI,Neuron
+ICA1L,Neuron
+ID1,Neuron
+ID2,Neuron
+ID3,Neuron
+ID4,Neuron
+IGSF1,Neuron
+IGSF21,Neuron
+IGSF8,Neuron
+IGTP,Neuron
+IIGP1,Neuron
+IL11RA1,Neuron
+IL3RA,Neuron
+IL4RA,Neuron
+IMMP2L,Neuron
+IRGM2,Neuron
+ISLR,Neuron
+ITGA9,Neuron
+ITGB1,Neuron
+ITPK1,Neuron
+ITSN1,Neuron
+IZUMO4,Neuron
+JDP2,Neuron
+JPH4,Neuron
+KCNA6,Neuron
+KCNC4,Neuron
+KCND1,Neuron
+KCTD12,Neuron
+KIRREL3,Neuron
+KITL,Neuron
+KLHL5,Neuron
+L1CAM,Neuron
+LDHA,Neuron
+LIMS2,Neuron
+LIN28B,Neuron
+LIN7A,Neuron
+LMNA,Neuron
+GM16958,Neuron
+LPAR1,Neuron
+LRRC75A,Neuron
+LRRTM2,Neuron
+LRRTM3,Neuron
+LXN,Neuron
+LY6H,Neuron
+MAFB,Neuron
+MAGEF1,Neuron
+MAGI1,Neuron
+MAML3,Neuron
+MAN1C1,Neuron
+MAP3K9,Neuron
+MAP7,Neuron
+MAPK3,Neuron
+MARCKS,Neuron
+MARCKSL1,Neuron
+MBOAT2,Neuron
+MC4R,Neuron
+MCMBP,Neuron
+MED18,Neuron
+METRNL,Neuron
+MFAP3,Neuron
+MICAL1,Neuron
+MIR3064,Neuron
+MMGT2,Neuron
+MMP14,Neuron
+MMP16,Neuron
+MMRN2,Neuron
+MOB3C,Neuron
+MORN4,Neuron
+MPDU1,Neuron
+MPP3,Neuron
+MPP6,Neuron
+MPV17L2,Neuron
+MTA3,Neuron
+MTCL1,Neuron
+MTHFS,Neuron
+MUC15,Neuron
+MXI1,Neuron
+MXRA7,Neuron
+MXRA8,Neuron
+MYL1,Neuron
+MYO1C,Neuron
+MYO7A,Neuron
+NAGA,Neuron
+NAMPT,Neuron
+NCK2,Neuron
+NECAB1,Neuron
+NEURL1A,Neuron
+NFKBIE,Neuron
+NHSL2,Neuron
+NIPSNAP3B,Neuron
+NMB,Neuron
+NME3,Neuron
+NNAT,Neuron
+NOG,Neuron
+NOP16,Neuron
+NRP1,Neuron
+NSG2,Neuron
+NUBPL,Neuron
+NUCB1,Neuron
+NUPL2,Neuron
+NXN,Neuron
+NXPH4,Neuron
+OAT,Neuron
+OCRL,Neuron
+OLFM2,Neuron
+OPHN1,Neuron
+PACRG,Neuron
+PALLD,Neuron
+PALM,Neuron
+PALMD,Neuron
+PAM,Neuron
+PAN2,Neuron
+PARD6G,Neuron
+PCDH17,Neuron
+PCDH20,Neuron
+PCDHGA4,Neuron
+PCNX,Neuron
+PDE1C,Neuron
+PDIA4,Neuron
+PDLIM4,Neuron
+PEA15A,Neuron
+PGRMC2,Neuron
+PHF12,Neuron
+PHF3,Neuron
+PHLDB2,Neuron
+PIGL,Neuron
+PIM2,Neuron
+PISD,Neuron
+PISD-PS3,Neuron
+PITHD1,Neuron
+PKIB,Neuron
+PKIG,Neuron
+PKP4,Neuron
+PLA2G6,Neuron
+PLCB3,Neuron
+PLEKHG5,Neuron
+PLK5,Neuron
+PLP2,Neuron
+PNRC2,Neuron
+PPEF1,Neuron
+PPFIA2,Neuron
+PPP1R27,Neuron
+PRDX1,Neuron
+PRELP,Neuron
+PRIMA1,Neuron
+PRKCD,Neuron
+PRPF39,Neuron
+PSEN2,Neuron
+PSME1,Neuron
+PSME2,Neuron
+PSME2B,Neuron
+PTCHD1,Neuron
+PTPN11,Neuron
+PTPN13,Neuron
+PTPN14,Neuron
+PTPN5,Neuron
+PTPRM,Neuron
+PTPRO,Neuron
+PWWP2B,Neuron
+PYCRL,Neuron
+QPCT,Neuron
+R74862,Neuron
+RAB13,Neuron
+RAB3B,Neuron
+RAD52,Neuron
+RALA,Neuron
+RAP1B,Neuron
+RBMS1,Neuron
+RCN1,Neuron
+RGS17,Neuron
+RGS3,Neuron
+RHOC,Neuron
+RIC8A,Neuron
+RIMS3,Neuron
+RIN2,Neuron
+RNASE4,Neuron
+RNF181,Neuron
+RNF44,Neuron
+RNPC3,Neuron
+ROR2,Neuron
+RPH3A,Neuron
+RPL32L,Neuron
+RPS12,Neuron
+RPS18,Neuron
+RPS6,Neuron
+RRBP1,Neuron
+RRM2B,Neuron
+RSPH9,Neuron
+RSU1,Neuron
+RWDD2B,Neuron
+RXFP3,Neuron
+RYBP,Neuron
+S100A1,Neuron
+S100A13,Neuron
+SAMD8,Neuron
+SCARLETLTR,Neuron
+SCG2,Neuron
+SCMH1,Neuron
+SCN2B,Neuron
+SCN9A,Neuron
+SCRIB,Neuron
+SDSL,Neuron
+SEC61A1,Neuron
+SEL1L3,Neuron
+SEMA6D,Neuron
+SERINC5,Neuron
+SERPINF1,Neuron
+SERTAD1,Neuron
+SESTD1,Neuron
+SGK3,Neuron
+SGPL1,Neuron
+SH3BGRL,Neuron
+SH3BGRL2,Neuron
+SH3KBP1,Neuron
+SHC3,Neuron
+SHISA2,Neuron
+SHROOM3,Neuron
+SIK1,Neuron
+SIPA1L1,Neuron
+SKAP1,Neuron
+SLC29A4,Neuron
+SLC35A2,Neuron
+SLC35D1,Neuron
+SLC36A1,Neuron
+SLC36A2,Neuron
+SLC4A10,Neuron
+SLC52A3,Neuron
+SLC6A4,Neuron
+SLC7A11,Neuron
+SLC7A8,Neuron
+SLC9A3R1,Neuron
+SLC9B2,Neuron
+SMAD1,Neuron
+SMAD6,Neuron
+SMAD7,Neuron
+SMIM15,Neuron
+SMIM22,Neuron
+SNCA,Neuron
+SNHG17,Neuron
+SNHG7,Neuron
+SNORA70,Neuron
+SNX8,Neuron
+SOCS1,Neuron
+SORCS3,Neuron
+SORL1,Neuron
+SPATA24,Neuron
+SPEG,Neuron
+SPRN,Neuron
+SPSB1,Neuron
+SPSB2,Neuron
+SSR4,Neuron
+ST8SIA4,Neuron
+STARD13,Neuron
+STAT6,Neuron
+STYX,Neuron
+SUGCT,Neuron
+SUSD5,Neuron
+SYCE2,Neuron
+SYNE4,Neuron
+SYT1,Neuron
+SYT5,Neuron
+TAX1BP3,Neuron
+TBC1D10A,Neuron
+TBC1D22A,Neuron
+TBC1D8,Neuron
+TBCEL,Neuron
+TBL1X,Neuron
+TCEA3,Neuron
+TCERG1L,Neuron
+TEX15,Neuron
+TEX33,Neuron
+TEX43,Neuron
+TH,Neuron
+TJP2,Neuron
+TLE4,Neuron
+TLR4,Neuron
+TM4SF1,Neuron
+TMBIM1,Neuron
+TMEM104,Neuron
+TMEM106A,Neuron
+TMEM119,Neuron
+TMEM132B,Neuron
+TMEM132E,Neuron
+TMEM169,Neuron
+TMEM176A,Neuron
+TMEM176B,Neuron
+TMEM186,Neuron
+TMEM200A,Neuron
+TMEM221,Neuron
+TMEM241,Neuron
+TMPRSS3,Neuron
+TMSB10,Neuron
+TMTC2,Neuron
+TMX1,Neuron
+TNC,Neuron
+TNNT1,Neuron
+TNR,Neuron
+TNS1,Neuron
+TNS3,Neuron
+TOM1,Neuron
+TPD52,Neuron
+TPM4,Neuron
+TPPP,Neuron
+TRAFD1,Neuron
+TRAPPC6A,Neuron
+TREM2,Neuron
+TRIM25,Neuron
+TRIM62,Neuron
+TRIP10,Neuron
+TRMT1L,Neuron
+TRPM3,Neuron
+TRPV2,Neuron
+TSHZ3,Neuron
+TSSK6,Neuron
+TUBA8,Neuron
+TUBB2A-PS2,Neuron
+TUBB2B,Neuron
+UBA2,Neuron
+UBASH3A,Neuron
+UBE2QL1,Neuron
+UBTD2,Neuron
+UNC13B,Neuron
+UNC5B,Neuron
+USP11,Neuron
+VAMP2,Neuron
+VAMP8,Neuron
+VAV3,Neuron
+VPS37B,Neuron
+VWA1,Neuron
+WASF2,Neuron
+WDR6,Neuron
+WDR76,Neuron
+WDR90,Neuron
+WLS,Neuron
+WNT3,Neuron
+WWC1,Neuron
+XAB2,Neuron
+XIST,Neuron
+XPO6,Neuron
+YBX1,Neuron
+ZBTB8A,Neuron
+ZFP142,Neuron
+ZFP185,Neuron
+ZFP319,Neuron
+ZFP57,Neuron
+ZFP646,Neuron
+ZFYVE1,Neuron
+ZMYND11,Neuron
+KCNC3,Neuron
+NEFL,Neuron
+SCN4B,Neuron
+TUBB3,Neuron
+GATA3,Neuron
+MAFB,Neuron
+PRPH,Neuron
+TH,Neuron
+ASCL1,Monocyte
+NEUROD1,Precursor Cell
+NEUROG1,Precursor Cell
+GAP43,Neuron
+GNG8,Neuron
+OMP,Neuron
+APOE,Stem Cell
+FABP7,Stem Cell
+GFAP,Stem Cell
+SLC1A3,Stem Cell
+SOX2,Stem Cell
+SOX9,Stem Cell
+THRSP,Stem Cell
+SOX11,Precursor Cell
+EOMES,Precursor Cell
+ELAPOR1,Neuron
+AATF,Neuron
+ANGPT1,Neuron
+B3GALT1,Neuron
+BBX,Neuron
+BIN1,Neuron
+CACNA2D1,Neuron
+CACNA2D2,Neuron
+CCDC148,Neuron
+CDH4,Neuron
+CDYL,Neuron
+CEP112,Neuron
+CLSTN2,Neuron
+CNTNAP2,Neuron
+COBLL1,Neuron
+DACH1,Neuron
+DIABLO,Neuron
+DSCAML1,Neuron
+DYNC1I1,Neuron
+EBF3,Neuron
+EMX2OS,Neuron
+EPHA3,Neuron
+RIPOR2,Neuron
+FAT3,Neuron
+FMN1,Neuron
+FNDC3B,Neuron
+FRMD4B,Neuron
+GFRA1,Neuron
+GPC1,Neuron
+KCNB2,Neuron
+KCNC2,Neuron
+KCNH7,Neuron
+MAML3,Neuron
+MSI2,Neuron
+NDNF,Neuron
+NRG1,Neuron
+PDZD2,Neuron
+PLEKHA7,Neuron
+POU6F2,Neuron
+RBMS1,Neuron
+RELN,Neuron
+ROBO2,Neuron
+SLC22A15,Neuron
+SLC2A13,Neuron
+SMAD1,Neuron
+THSD7B,Neuron
+TMEM163,Neuron
+TMEM200A,Neuron
+TRP73,Neuron
+UTRN,Neuron
+LRMDA,Monocyte
+ABCA9,Monocyte
+AOAH,Monocyte
+APOE,Monocyte
+ARHGAP15,Monocyte
+BANK1,Monocyte
+CD84,Monocyte
+CFH,Monocyte
+CMAH,Monocyte
+COLEC12,Monocyte
+CSF1R,Monocyte
+CTSB,Monocyte
+DAB2,Monocyte
+DCLRE1C,Monocyte
+DDX60,Monocyte
+DOCK2,Monocyte
+DOCK8,Monocyte
+EHD4,Monocyte
+ADGRE1,Monocyte
+F13A1,Monocyte
+FLI1,Monocyte
+FYB,Monocyte
+GAS6,Monocyte
+HPGDS,Monocyte
+IKZF1,Monocyte
+INPP5D,Monocyte
+LGMN,Monocyte
+LYN,Monocyte
+MAF,Monocyte
+MRC1,Monocyte
+P2RX7,Monocyte
+P2RY12,Monocyte
+PIK3AP1,Monocyte
+PNPLA7,Monocyte
+RBM47,Monocyte
+RBPJ,Monocyte
+RREB1,Monocyte
+RUNX1,Monocyte
+SIRPA,Monocyte
+SLC9A9,Monocyte
+SNX2,Monocyte
+STAB1,Monocyte
+STARD8,Monocyte
+TBXAS1,Monocyte
+TGFBR2,Monocyte
+TNFAIP8,Monocyte
+TNFRSF11A,Monocyte
+UNC93B1,Monocyte
+WDFY4,Monocyte
+ZFP710,Monocyte
+6030443J06RIK,Precursor Cell
+ABTB2,Precursor Cell
+ADAM12,Precursor Cell
+ARHGAP31,Precursor Cell
+BCAS1,Precursor Cell
+BRINP3,Precursor Cell
+CACNG4,Precursor Cell
+CHST11,Precursor Cell
+DOCK1,Precursor Cell
+DSCAM,Precursor Cell
+EPN2,Precursor Cell
+FCHSD2,Precursor Cell
+GM10530,Precursor Cell
+GM4876,Precursor Cell
+ITPR2,Precursor Cell
+KANK1,Precursor Cell
+KCNIP3,Precursor Cell
+KIF13A,Precursor Cell
+MEGF11,Precursor Cell
+MMP16,Precursor Cell
+MYT1,Precursor Cell
+NOVA1,Precursor Cell
+NXPH1,Precursor Cell
+PCDH11X,Precursor Cell
+PCDH15,Precursor Cell
+PDE7B,Precursor Cell
+PDGFRA,Precursor Cell
+PID1,Precursor Cell
+PPFIBP1,Precursor Cell
+PPP2R2B,Precursor Cell
+PTPRZ1,Precursor Cell
+SEMA5A,Precursor Cell
+SEMA5B,Precursor Cell
+SERPINE2,Precursor Cell
+SH3D19,Precursor Cell
+SLC9A9,Precursor Cell
+SNX25,Precursor Cell
+SOX2OT,Precursor Cell
+SOX6,Precursor Cell
+SPON1,Precursor Cell
+TMEM132D,Precursor Cell
+TNR,Precursor Cell
+TNS3,Precursor Cell
+TOX,Precursor Cell
+USP24,Precursor Cell
+VCAN,Precursor Cell
+WIPF1,Precursor Cell
+XYLT1,Precursor Cell
+ZEB1,Precursor Cell
+0610040J01RIK,Microglial Cell
+LRMDA,Microglial Cell
+ABCA9,Microglial Cell
+ADAP2,Microglial Cell
+APBB1IP,Microglial Cell
+ARSB,Microglial Cell
+BMP2K,Microglial Cell
+CCR5,Microglial Cell
+CSF1R,Microglial Cell
+CTSB,Microglial Cell
+CX3CR1,Microglial Cell
+CYTH4,Microglial Cell
+DOCK2,Microglial Cell
+DOCK8,Microglial Cell
+ADGRE1,Microglial Cell
+ENTPD1,Microglial Cell
+FCRLS,Microglial Cell
+FLI1,Microglial Cell
+FYB,Microglial Cell
+HEXB,Microglial Cell
+HPGDS,Microglial Cell
+IKZF1,Microglial Cell
+INPP5D,Microglial Cell
+ITGAM,Microglial Cell
+ITGB5,Microglial Cell
+LCP2,Microglial Cell
+LGMN,Microglial Cell
+LPCAT2,Microglial Cell
+LY86,Microglial Cell
+LYN,Microglial Cell
+MERTK,Microglial Cell
+MYO1F,Microglial Cell
+NCKAP1L,Microglial Cell
+P2RY12,Microglial Cell
+PIK3AP1,Microglial Cell
+PROS1,Microglial Cell
+PTPRC,Microglial Cell
+RASGRP3,Microglial Cell
+RREB1,Microglial Cell
+RUNX1,Microglial Cell
+SERINC3,Microglial Cell
+SIGLECH,Microglial Cell
+SIRPA,Microglial Cell
+SKAP2,Microglial Cell
+SLCO2B1,Microglial Cell
+TBXAS1,Microglial Cell
+TGFBR1,Microglial Cell
+TGFBR2,Microglial Cell
+VAV1,Microglial Cell
+ZFP710,Microglial Cell
+ABCB1A,Endothelial Cell
+APCDD1,Endothelial Cell
+CCDC141,Endothelial Cell
+CD93,Endothelial Cell
+CGNL1,Endothelial Cell
+CYYR1,Endothelial Cell
+EGFL7,Endothelial Cell
+ADGRL4,Endothelial Cell
+ENG,Endothelial Cell
+EPAS1,Endothelial Cell
+ERG,Endothelial Cell
+ETS1,Endothelial Cell
+FLI1,Endothelial Cell
+FLT1,Endothelial Cell
+FN1,Endothelial Cell
+FZD6,Endothelial Cell
+ADGRF5,Endothelial Cell
+HMCN1,Endothelial Cell
+HSPG2,Endothelial Cell
+LMNTD1,Endothelial Cell
+IGFBP7,Endothelial Cell
+ITGA1,Endothelial Cell
+ITGA4,Endothelial Cell
+KDR,Endothelial Cell
+LAMA4,Endothelial Cell
+LY75,Endothelial Cell
+MECOM,Endothelial Cell
+MFSD2A,Endothelial Cell
+NOS3,Endothelial Cell
+PECAM1,Endothelial Cell
+PTPRB,Endothelial Cell
+RASGRP3,Endothelial Cell
+RASSF9,Endothelial Cell
+RBPMS,Endothelial Cell
+RGS5,Endothelial Cell
+RHOJ,Endothelial Cell
+SLC16A1,Endothelial Cell
+SLC22A8,Endothelial Cell
+SLC40A1,Endothelial Cell
+SLC7A1,Endothelial Cell
+SLC7A5,Endothelial Cell
+SLCO1A4,Endothelial Cell
+SLCO1C1,Endothelial Cell
+SLCO2B1,Endothelial Cell
+SPARC,Endothelial Cell
+ST3GAL6,Endothelial Cell
+TEK,Endothelial Cell
+VWF,Endothelial Cell
+WWTR1,Endothelial Cell
+ZFP366,Endothelial Cell
+ABCC9,Muscle Cell
+ADAP2,Muscle Cell
+AIRN,Muscle Cell
+ANO1,Muscle Cell
+ARHGAP42,Muscle Cell
+ATP13A5,Muscle Cell
+ATP1A2,Muscle Cell
+CALD1,Muscle Cell
+COBLL1,Muscle Cell
+COL4A1,Muscle Cell
+COL4A2,Muscle Cell
+DLC1,Muscle Cell
+DOCK6,Muscle Cell
+EDNRA,Muscle Cell
+EGFLAM,Muscle Cell
+EPAS1,Muscle Cell
+ETS1,Muscle Cell
+GJC1,Muscle Cell
+IGFBP7,Muscle Cell
+ITGA1,Muscle Cell
+ITIH5,Muscle Cell
+LAMA2,Muscle Cell
+LAMA4,Muscle Cell
+LAMB1,Muscle Cell
+MRVI1,Muscle Cell
+MYH9,Muscle Cell
+MYO1B,Muscle Cell
+NID1,Muscle Cell
+NOTCH3,Muscle Cell
+PALD1,Muscle Cell
+PDE5A,Muscle Cell
+PDE8B,Muscle Cell
+PDGFRB,Muscle Cell
+PHLDB2,Muscle Cell
+PLCE1,Muscle Cell
+RAPGEF5,Muscle Cell
+RBPMS,Muscle Cell
+RGS5,Muscle Cell
+SLC16A12,Muscle Cell
+SLC38A11,Muscle Cell
+SLC6A20A,Muscle Cell
+SNTB1,Muscle Cell
+STARD8,Muscle Cell
+TNS1,Muscle Cell
+TRPC3,Muscle Cell
+UACA,Muscle Cell
+VSTM4,Muscle Cell
+ALDH1L1,Microglial Cell
+AQP4,Microglial Cell
+ARHGEF26,Microglial Cell
+ARHGEF4,Microglial Cell
+BMPR1B,Microglial Cell
+COL23A1,Microglial Cell
+EDNRB,Microglial Cell
+EMID1,Microglial Cell
+EPS15,Microglial Cell
+FBXL7,Microglial Cell
+FGFR1,Microglial Cell
+GLI2,Microglial Cell
+GLI3,Microglial Cell
+GM3764,Microglial Cell
+GPM6B,Microglial Cell
+GREB1L,Microglial Cell
+GRID2,Microglial Cell
+GSAP,Microglial Cell
+LRIG1,Microglial Cell
+LUZP2,Microglial Cell
+MCC,Microglial Cell
+MEGF10,Microglial Cell
+MEIS1,Microglial Cell
+NHSL1,Microglial Cell
+NPAS3,Microglial Cell
+NWD1,Microglial Cell
+PAQR8,Microglial Cell
+PAX3,Microglial Cell
+PCX,Microglial Cell
+PDE3A,Microglial Cell
+PDZRN3,Microglial Cell
+PLA2G7,Microglial Cell
+PLCE1,Microglial Cell
+PLPP3,Microglial Cell
+PREX1,Microglial Cell
+PREX2,Microglial Cell
+RFX4,Microglial Cell
+RGMA,Microglial Cell
+SFXN5,Microglial Cell
+SH3PXD2B,Microglial Cell
+SHROOM3,Microglial Cell
+SLC1A3,Microglial Cell
+SLC4A4,Microglial Cell
+SNED1,Microglial Cell
+SPARCL1,Microglial Cell
+STK32A,Microglial Cell
+TCF7L1,Microglial Cell
+TNC,Microglial Cell
+USP6NL,Microglial Cell
+VCAN,Microglial Cell
+3300002A11RIK,Ependymal Cell
+ADAMTS20,Ependymal Cell
+AK7,Ependymal Cell
+AK9,Ependymal Cell
+ARMC3,Ependymal Cell
+CCDC114,Ependymal Cell
+CCDC146,Ependymal Cell
+CCDC162,Ependymal Cell
+CCDC170,Ependymal Cell
+CCDC60,Ependymal Cell
+DAW1,Ependymal Cell
+DNAH10,Ependymal Cell
+DNAH11,Ependymal Cell
+DNAH12,Ependymal Cell
+DNAH3,Ependymal Cell
+DNAH5,Ependymal Cell
+DNAH6,Ependymal Cell
+CCDC180,Ependymal Cell
+EFHB,Ependymal Cell
+ENKUR,Ependymal Cell
+FHAD1,Ependymal Cell
+GM973,Ependymal Cell
+HYDIN,Ependymal Cell
+LMNTD1,Ependymal Cell
+IQCK,Ependymal Cell
+KIF6,Ependymal Cell
+KIF9,Ependymal Cell
+LRGUK,Ependymal Cell
+DRC3,Ependymal Cell
+LRRIQ1,Ependymal Cell
+NEK11,Ependymal Cell
+RGS22,Ependymal Cell
+SPAG16,Ependymal Cell
+SPAG17,Ependymal Cell
+SPATA17,Ependymal Cell
+SPEF2,Ependymal Cell
+TMEM212,Ependymal Cell
+TMEM232,Ependymal Cell
+TTC21A,Ependymal Cell
+TTC29,Ependymal Cell
+TTLL8,Ependymal Cell
+VWA3A,Ependymal Cell
+CFAP44,Ependymal Cell
+WDR63,Ependymal Cell
+CFAP43,Ependymal Cell
+ZBBX,Ependymal Cell
+0610040J01RIK,Microglial Cell
+ADAM12,Microglial Cell
+ADAMTSL1,Microglial Cell
+AFAP1L2,Microglial Cell
+APCDD1,Microglial Cell
+ATP1A2,Microglial Cell
+BCAR3,Microglial Cell
+BMP7,Microglial Cell
+BNC2,Microglial Cell
+COL23A1,Microglial Cell
+COL27A1,Microglial Cell
+COL5A2,Microglial Cell
+CPNE8,Microglial Cell
+FABP7,Microglial Cell
+FAT1,Microglial Cell
+FOXO1,Microglial Cell
+FRZB,Microglial Cell
+GM10863,Microglial Cell
+GRIN3A,Microglial Cell
+GSAP,Microglial Cell
+IGF1,Microglial Cell
+LAMA4,Microglial Cell
+LAMC1,Microglial Cell
+LEF1,Microglial Cell
+LHFP,Microglial Cell
+LRIG1,Microglial Cell
+MXI1,Microglial Cell
+MYBPC1,Microglial Cell
+NOTCH2,Microglial Cell
+PDE4B,Microglial Cell
+PHLDB2,Microglial Cell
+PLCE1,Microglial Cell
+PLP1,Microglial Cell
+PRIMA1,Microglial Cell
+PTN,Microglial Cell
+PTPN13,Microglial Cell
+ROR1,Microglial Cell
+RREB1,Microglial Cell
+SASH1,Microglial Cell
+SLC27A1,Microglial Cell
+SMOC1,Microglial Cell
+SNTB1,Microglial Cell
+SPATA13,Microglial Cell
+DENN2B,Microglial Cell
+ST6GAL1,Microglial Cell
+STARD13,Microglial Cell
+TNFRSF19,Microglial Cell
+USP54,Microglial Cell
+YAP1,Microglial Cell
+ZBTB7C,Microglial Cell
+1700025G04RIK,Neuron
+TCIM,Neuron
+2510009E07RIK,Neuron
+TMEM268,Neuron
+A330074K22RIK,Neuron
+ACTN2,Neuron
+ADAMTS5,Neuron
+AFAP1L1,Neuron
+ALDH5A1,Neuron
+ALPK2,Neuron
+APBA2,Neuron
+ARC,Neuron
+ARHGAP19,Neuron
+ARHGAP20,Neuron
+ARHGAP22,Neuron
+ARHGDIG,Neuron
+ARHGEF3,Neuron
+ASAP2,Neuron
+B3GAT1,Neuron
+BAG3,Neuron
+BVES,Neuron
+CACHD1,Neuron
+CACNA1B,Neuron
+CACNA1H,Neuron
+CACNA2D1,Neuron
+CACNA2D2,Neuron
+CALB2,Neuron
+CAR2,Neuron
+CARHSP1,Neuron
+CD63,Neuron
+CDH22,Neuron
+CDK15,Neuron
+CHRNA1,Neuron
+CHRNA4,Neuron
+CLDN23,Neuron
+CLN8,Neuron
+CMTM4,Neuron
+COL4A2,Neuron
+CPXM1,Neuron
+CREG2,Neuron
+CSF1,Neuron
+CYP2S1,Neuron
+CYP46A1,Neuron
+CYS1,Neuron
+DCLK1,Neuron
+DERA,Neuron
+DLGAP2,Neuron
+DNAH10,Neuron
+DOCK4,Neuron
+DOK5,Neuron
+DPY19L1,Neuron
+EPHX4,Neuron
+ERICH1,Neuron
+F11R,Neuron
+F2R,Neuron
+F730043M19RIK,Neuron
+FAM219AOS,Neuron
+FAM78B,Neuron
+FBXO40,Neuron
+FKBP5,Neuron
+FMNL1,Neuron
+FRAT1,Neuron
+FRAT2,Neuron
+FRMD5,Neuron
+GHR,Neuron
+GM12992,Neuron
+GM15760,Neuron
+GNAO1,Neuron
+GOLGA7B,Neuron
+GPR37,Neuron
+GXYLT2,Neuron
+HCN3,Neuron
+HMOX1,Neuron
+HPCAL1,Neuron
+HYDIN,Neuron
+IGFBP3,Neuron
+IGTP,Neuron
+IRGM2,Neuron
+ISOC1,Neuron
+KCNIP4,Neuron
+KCNK12,Neuron
+KREMEN1,Neuron
+KSR1,Neuron
+L3HYPDH,Neuron
+LCP2,Neuron
+LMCD1,Neuron
+LRFN2,Neuron
+LRRC4C,Neuron
+LSM11,Neuron
+MAPK4,Neuron
+MBD2,Neuron
+ME1,Neuron
+MICAL1,Neuron
+MTURN,Neuron
+MYL1,Neuron
+MYO1E,Neuron
+N4BP3,Neuron
+NAIP2,Neuron
+NAIP5,Neuron
+NDE1,Neuron
+NFIB,Neuron
+NFKBIZ,Neuron
+NHSL1,Neuron
+NHSL2,Neuron
+NR3C1,Neuron
+NRCAM,Neuron
+NRDE2,Neuron
+OBSCN,Neuron
+OLFML2B,Neuron
+PAG1,Neuron
+PALMD,Neuron
+PARM1,Neuron
+PARP9,Neuron
+PCDH20,Neuron
+PCED1B,Neuron
+PDE3B,Neuron
+PLEKHH1,Neuron
+PLEKHO1,Neuron
+PLIN2,Neuron
+POFUT1,Neuron
+POR,Neuron
+DISP3,Neuron
+PTPRD,Neuron
+PYGL,Neuron
+PYGM,Neuron
+QK,Neuron
+RASD1,Neuron
+RASSF6,Neuron
+RASSF8,Neuron
+RTL5,Neuron
+RGS6,Neuron
+RHOU,Neuron
+RILPL1,Neuron
+RIN2,Neuron
+RPP25,Neuron
+RSPH3B,Neuron
+RXRG,Neuron
+SASH1,Neuron
+SEMA4G,Neuron
+SERTM1,Neuron
+SH3BGR,Neuron
+SH3BGRL,Neuron
+SLC15A5,Neuron
+SLC25A13,Neuron
+SLC7A2,Neuron
+SLC7A8,Neuron
+SMIM3,Neuron
+SNHG4,Neuron
+SNTA1,Neuron
+SNTB2,Neuron
+SOX12,Neuron
+SPRED2,Neuron
+SYNDIG1,Neuron
+SYNGR1,Neuron
+TANC1,Neuron
+TBC1D16,Neuron
+TEC,Neuron
+THEM6,Neuron
+TIAM1,Neuron
+TMCC3,Neuron
+TMEM108,Neuron
+TMEM132C,Neuron
+TMEM132E,Neuron
+TMEM229A,Neuron
+TMEM229B,Neuron
+TMEM65,Neuron
+TNKS1BP1,Neuron
+TRIM24,Neuron
+TRIM54,Neuron
+TSEN54,Neuron
+TSPAN4,Neuron
+TSPAN9,Neuron
+TTC38,Neuron
+UPP1,Neuron
+VLDLR,Neuron
+VPS8,Neuron
+WDR91,Neuron
+WSCD2,Neuron
+ZFHX3,Neuron
+ZFP532,Neuron
+ZFP710,Neuron
+ANKRD16,Neuron
+ANXA5,Neuron
+APEX2,Neuron
+BCAM,Neuron
+CALB1,Neuron
+CDH23,Neuron
+CFAP161,Neuron
+COL19A1,Neuron
+CX3CL1,Neuron
+EDIL3,Neuron
+EZR,Neuron
+FBXO27,Neuron
+H2-K1,Neuron
+HCRTR2,Neuron
+HTR2C,Neuron
+IFIT1,Neuron
+KCND2,Neuron
+KCNMB2,Neuron
+KCNQ1,Neuron
+LRRC52,Neuron
+LRRC7,Neuron
+LYPD6,Neuron
+MGAT5B,Neuron
+PLS3,Neuron
+PPFIBP2,Neuron
+PPM1D,Neuron
+RBM20,Neuron
+RUNX1,Neuron
+RYR3,Neuron
+SDC4,Neuron
+SEMA3D,Neuron
+SESTD1,Neuron
+SLC29A3,Neuron
+SPATS2L,Neuron
+SPRY3,Neuron
+TMEM196,Neuron
+TMPRSS4,Neuron
+TPBGL,Neuron
+TRMT61A,Neuron
+TTN,Neuron
+UBXN2B,Neuron
+WSCD1,Neuron
+ZADH2,Neuron
+MAJIN,Neuron
+6330403K07RIK,Neuron
+ADAM11,Neuron
+ADGRA1,Neuron
+ADGRB3,Neuron
+ADPRHL1,Neuron
+AI987944,Neuron
+ANKS1B,Neuron
+ANTXR1,Neuron
+ARNT2,Neuron
+ARPP21,Neuron
+ATP11A,Neuron
+B4GALT4,Neuron
+BC030500,Neuron
+BHLHE22,Neuron
+BOC,Neuron
+CACNA1E,Neuron
+CACNG5,Neuron
+CAMK1D,Neuron
+CAR13,Neuron
+MCUB,Neuron
+CCDC162,Neuron
+CCKAR,Neuron
+CD164L2,Neuron
+CDH4,Neuron
+CDH8,Neuron
+CHST9,Neuron
+CIT,Neuron
+CLEC18A,Neuron
+CLRN1,Neuron
+CPLX2,Neuron
+CPNE6,Neuron
+CRIM1,Neuron
+CRTAC1,Neuron
+CYP1B1,Neuron
+CYTH3,Neuron
+DACH1,Neuron
+DCBLD2,Neuron
+DCC,Neuron
+DENND2C,Neuron
+DIRAS2,Neuron
+DRD1,Neuron
+DUSP6,Neuron
+EGFLAM,Neuron
+EHBP1L1,Neuron
+ELFN2,Neuron
+ELMOD1,Neuron
+EMB,Neuron
+EPB41L4A,Neuron
+ESPN,Neuron
+ESR2,Neuron
+EVA1C,Neuron
+F630111L10RIK,Neuron
+FAM3C,Neuron
+FAM43B,Neuron
+FANCA,Neuron
+FGF5,Neuron
+FKBP11,Neuron
+FKBP9,Neuron
+FMN1,Neuron
+FSCN2,Neuron
+FUT8,Neuron
+GAB1,Neuron
+GALK2,Neuron
+GALNT13,Neuron
+GALNT14,Neuron
+GALNTL6,Neuron
+GGACT,Neuron
+GLCE,Neuron
+GLDN,Neuron
+GLIS1,Neuron
+GM19557,Neuron
+GM20063,Neuron
+GPR155,Neuron
+GPX8,Neuron
+GRM8,Neuron
+GRXCR2,Neuron
+GSTP1,Neuron
+HAP1,Neuron
+HMCN1,Neuron
+HOPX,Neuron
+HRH3,Neuron
+ISLR2,Neuron
+KCNC2,Neuron
+KCNIP1,Neuron
+KCNIP2,Neuron
+KCNJ9,Neuron
+KCNK3,Neuron
+KHDRBS2,Neuron
+KIF26B,Neuron
+KRT28,Neuron
+LDHA,Neuron
+LEMD1,Neuron
+LGI1,Neuron
+LGR5,Neuron
+LRRCC1,Neuron
+LRRK2,Neuron
+LUZP2,Neuron
+LYPD1,Neuron
+MAGI1,Neuron
+MCM6,Neuron
+MEF2C,Neuron
+MGAT4C,Neuron
+MKNK1,Neuron
+MRPS6,Neuron
+MSTN,Neuron
+MYO1H,Neuron
+MYOM3,Neuron
+NALCN,Neuron
+NCALD,Neuron
+NDST3,Neuron
+NDST4,Neuron
+NEGR1,Neuron
+NEUROD1,Neuron
+NMRK1,Neuron
+NRP1,Neuron
+NTNG1,Neuron
+P3H4,Neuron
+PARVA,Neuron
+PCBD1,Neuron
+PCDH9,Neuron
+PCP4L1,Neuron
+PCSK2,Neuron
+PCSK2OS1,Neuron
+PCSK5,Neuron
+PIRT,Neuron
+PISD-PS1,Neuron
+PLCD4,Neuron
+PLCE1,Neuron
+PLCXD2,Neuron
+PLOD2,Neuron
+PLXNA2,Neuron
+PNCK,Neuron
+POU4F1,Neuron
+PPP1R3B,Neuron
+PRKAR2B,Neuron
+PRR15,Neuron
+PRRT2,Neuron
+PTK7,Neuron
+RAB15,Neuron
+RASGRF1,Neuron
+RBFOX3,Neuron
+RGS10,Neuron
+RGS12,Neuron
+RHBDL1,Neuron
+RND2,Neuron
+OBI1,Neuron
+ROBO1,Neuron
+ROBO2,Neuron
+RPH3A,Neuron
+RUNX1T1,Neuron
+SAMD11,Neuron
+SATB1,Neuron
+SCN2B,Neuron
+SEMA3A,Neuron
+SEMA3F,Neuron
+SEMA4D,Neuron
+SERP2,Neuron
+SH2D7,Neuron
+SLC17A6,Neuron
+SLC9A9,Neuron
+SLCO4A1,Neuron
+SLIT2,Neuron
+SLITRK2,Neuron
+SNCG,Neuron
+SORBS2,Neuron
+SPHKAP,Neuron
+SPOCK1,Neuron
+SPTB,Neuron
+ST6GALNAC3,Neuron
+TENM2,Neuron
+TERF2,Neuron
+THRSP,Neuron
+TIMP3,Neuron
+TJP2,Neuron
+TMEM117,Neuron
+TMEM47,Neuron
+TMPRSS7,Neuron
+TPO,Neuron
+TRIOBP,Neuron
+TSKU,Neuron
+TSPAN2,Neuron
+TTYH2,Neuron
+USH1G,Neuron
+UST,Neuron
+VAT1L,Neuron
+ZEB2,Neuron
+ZFP536,Neuron
+ZFP947,Neuron
+B3GAT1,Neuron
+CALB2,Neuron
+CD24A,Neuron
+ELOVL5,Neuron
+MAF,Neuron
+MDGA1,Neuron
+OBSCN,Neuron
+PAXBP1,Neuron
+PCDH20,Neuron
+ZFP804A,Neuron
+BTBD9,Neuron
+CALB1,Neuron
+KASH5,Neuron
+EDIL3,Neuron
+ENO1,Neuron
+LGALS1,Neuron
+RASGRP2,Neuron
+SEMA3E,Neuron
+TTN,Neuron
+CD164L2,Neuron
+FAIM2,Neuron
+LYPD1,Neuron
+NTNG1,Neuron
+PCSK2,Neuron
+POU4F1,Neuron
+RPH3A,Neuron
+SPHKAP,Neuron
+TAGLN3,Neuron
+RNF227,Neuron
+SELENOW,Neuron
+HACD2,Astrocyte
+MSMO1,Astrocyte
+PNISR,Astrocyte
+VSIR,Microglial Cell
+ARHGAP45,Microglial Cell
+VXN,Precursor Cell
+ARMH4,Precursor Cell
+PLPP4,Precursor Cell
+JCAD,Endothelial Cell
+ADGRL4,Endothelial Cell
+ADGRF5,Endothelial Cell
+CAVIN2,Endothelial Cell
+CARMN,Mural Cell
+DLX6OS1,Neuron
+EPB41L4A,Chandelier Cell
+IFI27,Chandelier Cell
+DIPK2A,Basket Cell
+MCUB,Neuron
+TENT5A,Neuron
+PRCD,Neuron
+ADGRG6,Neuron
+PHF24,Neuron
+TUNAR,Martinotti Cell
+ADGRB1,Martinotti Cell
+AGO2,Basket Cell
+DELE1,Neuron
+CPLANE1,Neuron
+RMC1,Neuron
+INSYN1,Neuron
+AKAIN1,Neuron
+CCDC9B,Neuron
+TLE5,Neuron
+GPAT3,Neuron
+ECPAS,Neuron
+MYORG,Neuron
+DMAC2,Neuron
+NKAPD1,Neuron
+FNDC10,Neuron
+INTS11,Neuron
+DOP1B,Neuron
+ZFP971,Neuron
+ABRAXAS2,Neuron
+RIPOR2,Neuron
+MIGA2,Neuron
+PLAAT1,Neuron
+LNPK,Neuron
+MRTFB,Neuron
+MTSS2,Neuron
+CIAO3,Neuron
+SELENOM,Neuron
+SELENOO,Neuron
+TMEM35A,Neuron
+RXYLT1,Neuron
+GALNT17,Neuron
+SHISAL1,Neuron
+MIR100HG,Neuron
+FAM241A,Neuron
+MINAR2,Neuron
+H2-T-PS,Neuron
+CASTOR1,Neuron
+GUCY1B1,Neuron
+JPT2,Neuron
+PWWP3B,Neuron
+SNU13,Neuron
+DISP3,Neuron
+NECTIN2,Neuron
+SELENOP,Neuron
+RO60,Neuron
+MIR9-3HG,Precursor Cell
+MORRBID,Muscle Cell
+GUCY1A1,Muscle Cell
+CFAP299,Ependymal Cell
+CFAP61,Ependymal Cell
+CFAP46,Ependymal Cell
+CFAP65,Ependymal Cell
+LRATD1,Neuron
+DIPK2A,Neuron
+SHISAL1,Neuron
+INSYN1,Neuron
+MAP3K20,Neuron
+GJA1,Astrocyte
+PLPP3,Astrocyte
+NTSR2,Astrocyte
+HTRA1,Astrocyte
+ATP1B2,Astrocyte
+BCAN,Astrocyte
+MT2,Astrocyte
+SLC1A3,Astrocyte
+MT3,Astrocyte
+TTYH1,Astrocyte
+MEIG1,Ependymal Cell
+1110017D15RIK,Ependymal Cell
+NME9,Ependymal Cell
+FAM166C,Ependymal Cell
+FAM183B,Ependymal Cell
+CCDC153,Ependymal Cell
+TM4SF1,Ependymal Cell
+TMEM212,Ependymal Cell
+RIIAD1,Ependymal Cell
+CFAP126,Ependymal Cell
+1700007K13RIK,Ependymal Cell
+RSPH1,Ependymal Cell
+DYNLRB2,Ependymal Cell
+GM19935,Ependymal Cell
+CALML4,Ependymal Cell
+RARRES2,Ependymal Cell
+IFITM3,Ependymal Cell
+TMEM107,Ependymal Cell
+CD24A,Ependymal Cell
+PLTP,Ependymal Cell
+CCPG1OS,Ependymal Cell
+SOX9,Ependymal Cell
+CRIP1,Ependymal Cell
+FOXJ1,Ependymal Cell
+ECRG4,Ependymal Cell
+HSPA2,Ependymal Cell
+ZFP36L1,Ependymal Cell
+RNASE4,Ependymal Cell
+4933434E20RIK,Ependymal Cell
+LRP10,Ependymal Cell
+DALRD3,Ependymal Cell
+NNAT,Ependymal Cell
+CHCHD10,Ependymal Cell
+TUBB4B,Ependymal Cell
+NUDC,Ependymal Cell
+IFT20,Ependymal Cell
+MLC1,Ependymal Cell
+TUBA1B,Ependymal Cell
+STIP1,Ependymal Cell
+GNG5,Ependymal Cell
+DUSP1,Ependymal Cell
+SPOP,Ependymal Cell
+PRXL2A,Ependymal Cell
+PKM,Ependymal Cell
+GDF10,Microglial Cell
+LXN,Microglial Cell
+TIMP4,Microglial Cell
+BTBD17,Microglial Cell
+GPLD1,Microglial Cell
+FXYD1,Microglial Cell
+TMEM47,Microglial Cell
+MLC1,Microglial Cell
+PLA2G7,Microglial Cell
+SLC4A4,Microglial Cell
+FABP7,Microglial Cell
+S1PR1,Microglial Cell
+FAM107A,Microglial Cell
+ACSBG1,Microglial Cell
+CLDN10,Microglial Cell
+LUZP2,Microglial Cell
+GPM6A,Microglial Cell
+SLC1A3,Microglial Cell
+SCG3,Microglial Cell
+PLPP3,Microglial Cell
+PTPRZ1,Microglial Cell
+HOPX,Microglial Cell
+ATP1B2,Microglial Cell
+GJA1,Microglial Cell
+GRINA,Microglial Cell
+MFGE8,Microglial Cell
+GSTM1,Microglial Cell
+CD63,Microglial Cell
+PRDX6,Microglial Cell
+CACNG4,Precursor Cell
+GPR17,Precursor Cell
+MARCKS,Precursor Cell
+CSPG5,Precursor Cell
+SELPLG,Monocyte
+P2RY12,Monocyte
+FCER1G,Monocyte
+CSF1R,Monocyte
+KLF2,Monocyte
+TYROBP,Monocyte
+C1QA,Monocyte
+NFKBIA,Monocyte
+CTSS,Monocyte
+JUNB,Monocyte
+C1QC,Monocyte
+C1QB,Monocyte
+HEXB,Monocyte
+ATF3,Monocyte
+ZFP36,Monocyte
+LGMN,Monocyte
+SPARC,Monocyte
+CD24A,Neuron
+CCND2,Neuron
+TMSB10,Neuron
+TUBB5,Neuron
+NNAT,Neuron
+SNRPE,Neuron
+TUBB2B,Neuron
+SNRPG,Neuron
+ATPIF1,Neuron
+MARCKSL1,Neuron
+YBX1,Neuron
+H3F3A,Neuron
+RPL6,Neuron
+RPS4X,Neuron
+KCNJ13,Schwann Cell
+KL,Schwann Cell
+MSX1,Schwann Cell
+VAT1L,Schwann Cell
+LGALS1,Schwann Cell
+ECRG4,Schwann Cell
+PCP4L1,Schwann Cell
+EPHX1,Schwann Cell
+IGFBP2,Schwann Cell
+ALDH2,Schwann Cell
+ATP1B1,Schwann Cell
+CHCHD10,Schwann Cell
+FXYD1,Schwann Cell
+NDUFA1,Schwann Cell
+PRDX5,Schwann Cell
+LDHB,Schwann Cell
+MDH1,Schwann Cell
+NDUFV3,Schwann Cell
+IFI27,Schwann Cell
+C1QC,Microglial Cell
+P2RY12,Microglial Cell
+SIGLECH,Microglial Cell
+SELPLG,Microglial Cell
+OLFML3,Microglial Cell
+JUN,Microglial Cell
+CSF1R,Microglial Cell
+CX3CR1,Microglial Cell
+LGMN,Microglial Cell
+FCRLS,Microglial Cell
+TMEM119,Microglial Cell
+RGS2,Microglial Cell
+ZFP36,Microglial Cell
+SERINC3,Microglial Cell
+TYROBP,Microglial Cell
+STMN4,Oligodendrocyte
+MAL,Oligodendrocyte
+CLDN11,Oligodendrocyte
+MBP,Oligodendrocyte
+CNP,Oligodendrocyte
+MOG,Oligodendrocyte
+CRYAB,Oligodendrocyte
+MOBP,Oligodendrocyte
+TUBB4A,Oligodendrocyte
+MAG,Oligodendrocyte
+PPP1R14A,Oligodendrocyte
+QDPR,Oligodendrocyte
+SEPTIN4,Oligodendrocyte
+CAR2,Oligodendrocyte
+PLLP,Oligodendrocyte
+ERMN,Oligodendrocyte
+ENPP2,Oligodendrocyte
+CSRP1,Oligodendrocyte
+STMN1,Oligodendrocyte
+FEZ1,Oligodendrocyte
+GATM,Oligodendrocyte
+APLP1,Oligodendrocyte
+YWHAQ,Oligodendrocyte
+OPALIN,Oligodendrocyte
+GPM6B,Oligodendrocyte
+SCD2,Oligodendrocyte
+SYT11,Oligodendrocyte
+SEPTIN7,Oligodendrocyte
+TUBA1A,Oligodendrocyte
+TALDO1,Oligodendrocyte
+CD52,Monocyte
+H2-D1,Monocyte
+CLDN10,Astrocyte
+PLA2G7,Astrocyte
+ATP1A2,Astrocyte
+SPARCL1,Astrocyte
+GPR37L1,Astrocyte
+GPM6A,Astrocyte
+ALDOC,Astrocyte
+CLU,Astrocyte
+NDRG2,Astrocyte
+CPE,Astrocyte
+ACSL3,Astrocyte
+TSPAN7,Astrocyte
+ID2,Astrocyte
+GSTM1,Astrocyte
+SOSTDC1,Schwann Cell
+GPX8,Schwann Cell
+CDKN1C,Schwann Cell
+PLTP,Schwann Cell
+CAB39L,Schwann Cell
+MCEE,Schwann Cell
+SUCLA2,Schwann Cell
+MRPS6,Schwann Cell
+MT3,Schwann Cell
+NDUFA11,Schwann Cell
+COX20,Schwann Cell
+ATP5MD,Schwann Cell
+SNHG11,Neuron
+MEG3,Neuron
+SCRG1,Precursor Cell
+RTN1,Precursor Cell
+TSC22D1,Precursor Cell
+BCAN,Precursor Cell
+SELENOH,Neuron
+DDAH1,Microglial Cell
+PLTP,Microglial Cell
+GABRB1,Microglial Cell
+RDH5,Microglial Cell
+NUDCD3,Microglial Cell
+TLCD1,Microglial Cell
+CCNT2,Microglial Cell
+SMPD1,Microglial Cell
+MMD2,Microglial Cell

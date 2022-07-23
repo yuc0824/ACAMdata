@@ -1,0 +1,352 @@
+geneSymbol,shortname
+Aldh1a3,Monocyte
+Cd14,Monocyte
+Cited1,Monocyte
+Esr1,Monocyte
+Kit,Monocyte
+Pgr,Monocyte
+Prlr,Monocyte
+S100a6,Monocyte
+Cited1,Hormone Sensing Differentiated Cell
+Esr1,Hormone Sensing Differentiated Cell
+Pgr,Hormone Sensing Differentiated Cell
+Prlr,Hormone Sensing Differentiated Cell
+S100a6,Hormone Sensing Differentiated Cell
+Aldh1a3,Monocyte
+Cd14,Monocyte
+Kit,Monocyte
+Csn2,Alveolar
+Glycam1,Alveolar
+Lalba,Alveolar
+Wap,Alveolar
+Aldh1a3,Monocyte
+Cd14,Monocyte
+Csn2,Monocyte
+Glycam1,Monocyte
+Kit,Monocyte
+Lalba,Monocyte
+Wap,Monocyte
+Acta2,Basal Cell
+Etv5,Basal Cell
+Krt14,Basal Cell
+Krt4,Basal Cell
+Pdpn,Basal Cell
+Acta2,Epithelial Cell
+Krt14,Epithelial Cell
+Krt4,Epithelial Cell
+Oxtr,Epithelial Cell
+Gng11,Basal Cell
+Igfbp4,Basal Cell
+Procr,Basal Cell
+Zeb2,Basal Cell
+Prlr,Epithelial Cell
+Fxyd2,Epithelial Cell
+Wfdc2,Epithelial Cell
+Krt19,Epithelial Cell
+Glul,Epithelial Cell
+Cd164,Epithelial Cell
+Krt18,Epithelial Cell
+Krt8,Epithelial Cell
+Tmed3,Epithelial Cell
+Cd9,Epithelial Cell
+Cd24a,Epithelial Cell
+Ctsk,Fibroblast
+Lum,Fibroblast
+Mmp2,Fibroblast
+Col1a2,Fibroblast
+Col3a1,Fibroblast
+Col1a1,Fibroblast
+Aebp1,Fibroblast
+Serpinf1,Fibroblast
+Igfbp7,Fibroblast
+Apod,Fibroblast
+Lpl,Fibroblast
+Ogn,Muscle Cell
+Igfbp6,Muscle Cell
+Ly6c1,Muscle Cell
+Fstl1,Muscle Cell
+Serping1,Muscle Cell
+Timp2,Muscle Cell
+Col3a1,Muscle Cell
+Col1a2,Muscle Cell
+Csn1s1,Alveolar
+Csn2,Alveolar
+Fxyd3,Alveolar
+Hp,Alveolar
+Krt18,Alveolar
+Krt8,Alveolar
+Igfbp5,Alveolar
+Clu,Alveolar
+Wfdc18,Alveolar
+Mgst1,Alveolar
+Tyrobp,Monocyte
+Fcer1g,Monocyte
+H2-Eb1,Monocyte
+Lsp1,Monocyte
+Cpa3,Mast Cell
+Mrgprb1,Mast Cell
+Tpsb2,Mast Cell
+Cma1,Mast Cell
+Mcpt4,Mast Cell
+Serpinb1a,Mast Cell
+Trbc2,T Cell
+Fabp4,Endothelial Cell
+Ly6c1,Endothelial Cell
+Hspb1,Endothelial Cell
+Lyz2,Monocyte
+H2-Aa,Monocyte
+H2-Ab1,Monocyte
+Ctss,Monocyte
+Trf,Alveolar
+Csn3,Alveolar
+Mfge8,Alveolar
+AW112010,Epithelial Cell
+Dpt,Muscle Cell
+Gpx3,Muscle Cell
+Mmp2,Muscle Cell
+Igfbp7,Endothelial Cell
+Dcn,Fibroblast
+Sparc,Fibroblast
+Gsn,Fibroblast
+Jchain,B Cell
+Ccl5,Killer Cell
+Mylk,Muscle Cell
+Myl9,Muscle Cell
+Cnn1,Muscle Cell
+Hspb1,Muscle Cell
+Acta2,Muscle Cell
+Tpm2,Muscle Cell
+S100a6,Muscle Cell
+Sparc,Muscle Cell
+Cdkn1a,Myeloid Leukocyte
+Ctsc,Myeloid Leukocyte
+Elf5,Alveolar
+Epcam,Alveolar
+Cldn3,Alveolar
+Lmo4,Alveolar
+Spint2,Alveolar
+Ubd,Alveolar
+Crip2,Alveolar
+Tceal9,Alveolar
+Cd9,Alveolar
+Tmem176a,Alveolar
+Lcn2,Alveolar
+Tmem59,Alveolar
+C1s1,Fibroblast
+Mmp14,Fibroblast
+Nid1,Fibroblast
+Efemp1,Fibroblast
+Mfap2,Fibroblast
+Dpep1,Fibroblast
+Rarres2,Fibroblast
+Serping1,Fibroblast
+Fstl1,Fibroblast
+Loxl1,Fibroblast
+Dpt,Fibroblast
+Rnase4,Fibroblast
+Col6a3,Fibroblast
+Col6a1,Fibroblast
+Col5a2,Fibroblast
+Col6a2,Fibroblast
+Serpinh1,Fibroblast
+Ppic,Fibroblast
+Bgn,Fibroblast
+Itm2a,Fibroblast
+Rcn3,Fibroblast
+Mfap5,Fibroblast
+Col4a1,Fibroblast
+Igfbp4,Fibroblast
+Col4a2,Fibroblast
+Igfbp6,Fibroblast
+P4hb,Fibroblast
+Anxa5,Fibroblast
+Cd36,Endothelial Cell
+Cd68,Monocyte
+Cfp,Monocyte
+Ms4a6c,Monocyte
+C1qc,Monocyte
+Lgmn,Monocyte
+Ctsc,Monocyte
+Pf4,Monocyte
+Aif1,Monocyte
+Grn,Monocyte
+Selenop,Monocyte
+Hba-a1,Epithelial Cell
+Areg,Epithelial Cell
+Cited1,Epithelial Cell
+Calca,Epithelial Cell
+Gpx3,Epithelial Cell
+Rnf10,Epithelial Cell
+Tspan3,Epithelial Cell
+Epcam,Epithelial Cell
+Sae1,Epithelial Cell
+Mrpl34,Epithelial Cell
+Spint2,Epithelial Cell
+1110004F10Rik,Epithelial Cell
+Mrpl13,Epithelial Cell
+Slc25a39,Epithelial Cell
+Commd3,Epithelial Cell
+Timm8b,Epithelial Cell
+Sdhb,Epithelial Cell
+Ezr,Epithelial Cell
+Cldn3,Epithelial Cell
+Gata2,Mast Cell
+Hdc,Mast Cell
+Tagln,Epithelial Cell
+Gm33651,Epithelial Cell
+Krt5,Epithelial Cell
+Ecrg4,Epithelial Cell
+Actg2,Epithelial Cell
+Mia,Epithelial Cell
+Igfbp2,Epithelial Cell
+Cxcl14,Epithelial Cell
+Cnn1,Epithelial Cell
+Krt14,Epithelial Cell
+Il17b,Epithelial Cell
+Mylk,Epithelial Cell
+Myl9,Epithelial Cell
+Tpm2,Epithelial Cell
+Tpm1,Epithelial Cell
+Apoc1,Epithelial Cell
+Lgals7,Epithelial Cell
+Csrp1,Epithelial Cell
+Nedd4,Epithelial Cell
+Rbp1,Epithelial Cell
+Hspb1,Epithelial Cell
+Mfge8,Epithelial Cell
+Col4a1,Epithelial Cell
+Lmo4,Epithelial Cell
+Col4a2,Epithelial Cell
+Serpinh1,Epithelial Cell
+Tceal9,Epithelial Cell
+Cd79a,B Cell
+Clec3b,Fibroblast
+Pcolce,Fibroblast
+Postn,Fibroblast
+Mgst1,Fibroblast
+Ctsl,Fibroblast
+Cd63,Fibroblast
+Laptm4a,Fibroblast
+Ifitm3,Fibroblast
+Ifitm2,Fibroblast
+Vim,Fibroblast
+Ctsb,Fibroblast
+Tyrobp,Killer Cell
+Banf1,Dividing Cell
+S100a4,Stem And Progenitor Cell
+Ccl6,Monocyte
+Ifitm3,Monocyte
+Fscn1,Monocyte
+Tmem176b,Monocyte
+Tmem123,Monocyte
+Gadd45b,Monocyte
+Lrg1,Monocyte
+Ltf,Monocyte
+Plet1,Monocyte
+Csn3,Monocyte
+Cldn3,Monocyte
+Smim22,Monocyte
+Cldn4,Monocyte
+Fxyd3,Monocyte
+Epcam,Monocyte
+Prlr,Monocyte
+Slc12a2,Monocyte
+Tgm2,Monocyte
+Ptn,Monocyte
+Hspb1,Monocyte
+Igfbp5,Monocyte
+Wfdc2,Monocyte
+Krt8,Monocyte
+Mfge8,Monocyte
+Slc25a17,Monocyte
+Spint2,Monocyte
+Phyh,Monocyte
+Glul,Monocyte
+H2bc4,Monocyte
+Tmem176b,Monocyte
+Mgst1,Monocyte
+Slc25a39,Monocyte
+Cd9,Monocyte
+Tmed3,Monocyte
+Atp1a1,Monocyte
+Tceal9,Monocyte
+Apobec3,Monocyte
+Cd81,Monocyte
+Slc5a5,Epithelial Cell
+Tspan1,Epithelial Cell
+Krt7,Epithelial Cell
+Gipc2,Epithelial Cell
+Cldn4,Epithelial Cell
+Aqp5,Epithelial Cell
+Slc12a2,Epithelial Cell
+Cystm1,Epithelial Cell
+Fam25c,Epithelial Cell
+Ptn,Epithelial Cell
+Tgm2,Epithelial Cell
+Crip2,Epithelial Cell
+Cd200,Epithelial Cell
+Naxd,Epithelial Cell
+Gadd45g,Epithelial Cell
+H2bc4,Epithelial Cell
+Tmem176b,Epithelial Cell
+Tspan13,Epithelial Cell
+Acadl,Epithelial Cell
+Cnn3,Epithelial Cell
+Cnpy2,Epithelial Cell
+Id3,Epithelial Cell
+Tmem176a,Epithelial Cell
+Anxa1,Epithelial Cell
+Polr2f,Epithelial Cell
+Atp6v1g1,Epithelial Cell
+Tmem256,Epithelial Cell
+Cd63,Epithelial Cell
+Rnh1,Epithelial Cell
+Bsg,Epithelial Cell
+Rps27l,Epithelial Cell
+Prdx5,Epithelial Cell
+Cox17,Epithelial Cell
+Prdx6,Epithelial Cell
+Atox1,Epithelial Cell
+Uqcr11,Epithelial Cell
+Gpx4,Epithelial Cell
+Laptm4a,Epithelial Cell
+Skp1,Epithelial Cell
+Anxa2,Epithelial Cell
+Ctsd,Epithelial Cell
+Tuba1b,Dividing Cell
+Htra3,Fibroblast
+Fn1,Fibroblast
+Plpp3,Fibroblast
+S100a6,Fibroblast
+Mt1,Fibroblast
+Ly6a,Fibroblast
+Lcn2,Monocyte
+Wfdc18,Monocyte
+Krt18,Monocyte
+Clu,Monocyte
+Tsc22d1,Monocyte
+Fosb,Monocyte
+Krt19,Monocyte
+Dbi,Monocyte
+Serinc3,Monocyte
+Anxa2,Monocyte
+Phlda1,Monocyte
+Fgg,Epithelial Cell
+Ly6d,Epithelial Cell
+Tceal9,Epithelial Cell
+Atf3,Epithelial Cell
+Ifitm3,Epithelial Cell
+Mt1,Epithelial Cell
+S100a6,Epithelial Cell
+Atpif1,Epithelial Cell
+Prdx2,Epithelial Cell
+Ifitm2,Epithelial Cell
+Ly6a,Epithelial Cell
+Serinc3,Epithelial Cell
+Hmgn1,Epithelial Cell
+Uqcrb,Epithelial Cell
+Akr1a1,Epithelial Cell
+Ndufa7,Epithelial Cell
+Lgals1,Fibroblast
+Gzma,Killer Cell
+Nkg7,Killer Cell

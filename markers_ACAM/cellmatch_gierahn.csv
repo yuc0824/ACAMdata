@@ -1,0 +1,357 @@
+﻿cellMarker,shortname
+CD27,T Cell
+CD28,T Cell
+CD3D,T Cell
+CD3E,T Cell
+CD3G,T Cell
+CD4,T Cell
+CTLA4,T Cell
+FOXP3,T Cell
+IL2RA,T Cell
+CD4,T Cell
+CD8A,T Cell
+CD8B,T Cell
+CD4,T Cell
+CTLA4,T Cell
+FOXP3,T Cell
+IL2RA,T Cell
+BLNK,B Cell
+CD19,B Cell
+CD79A,B Cell
+CD79B,B Cell
+MS4A1,B Cell
+CD14,Macrophage
+CD163,Macrophage
+CD68,Macrophage
+CSF1R,Macrophage
+FCGR3A,Macrophage
+CLEC4C,Dendritic Cell
+IL3RA,Dendritic Cell
+NRP1,Dendritic Cell
+FCGR3A,NK
+FCGR3B,NK
+KLRB1,NK
+KLRC1,NK
+KLRD1,NK
+KLRF1,NK
+KLRK1,NK
+NCAM1,NK
+CDH5,Endothelial Cell
+SELE,Endothelial Cell
+VWF,Endothelial Cell
+COL1A1,Fibroblast
+COL3A1,Fibroblast
+FAP,Fibroblast
+THY1,Fibroblast
+MITF,Cancer Cell
+MLANA,Cancer Cell
+PMEL,Cancer Cell
+TYR,Cancer Cell
+EPCAM,Cancer Cell
+MCAM,Cancer Cell
+WFDC2,Cancer Cell
+CCR7,T Cell
+CD27,T Cell
+CD8A,T Cell
+CD8B,T Cell
+CCR7,T Cell
+CD27,T Cell
+IL7R,T Cell
+CD8A,NK
+CD8B,NK
+ZNF683,NK
+CD37,B Cell
+CD79A,B Cell
+CD8A,T Cell
+CD8B,T Cell
+GZMK,T Cell
+CCL3,NK
+CD160,NK
+CD247,NK
+GNLY,NK
+GZMB,NK
+NKG7,NK
+CD14,Monocyte
+FCGR3A,Monocyte
+FCGR3B,Monocyte
+CD68,Monocyte
+S100A12,Monocyte
+CCR10,T Cell
+IL2RA,T Cell
+CD52,T Cell
+CMTM7,T Cell
+FOXP3,T Cell
+CD1C,Dendritic Cell
+CST3,Dendritic Cell
+FCER1A,Dendritic Cell
+PF4,Monocyte
+PLA2G12A,Monocyte
+PPBP,Monocyte
+ID2,NK
+IL3RA,Dendritic Cell
+GZMB,Dendritic Cell
+ABLIM1,T Cell
+ACTN1,T Cell
+AIF1,T Cell
+APBA2,T Cell
+APEX1,T Cell
+ARHGAP45,T Cell
+ARHGEF18,T Cell
+ATM,T Cell
+BACH2,T Cell
+BEX4,T Cell
+C1ORF162,T Cell
+CA6,T Cell
+CAMK4,T Cell
+CCR7,T Cell
+CD248,T Cell
+CD55,T Cell
+CEP68,T Cell
+COQ8A,T Cell
+DGKA,T Cell
+EEF2,T Cell
+EIF3E,T Cell
+EIF3L,T Cell
+EPHX2,T Cell
+EXOSC8,T Cell
+FAM102A,T Cell
+FAM117B,T Cell
+FKBP5,T Cell
+FOXP1,T Cell
+GAS5,T Cell
+GCSAM,T Cell
+GIMAP2,T Cell
+GPR155,T Cell
+GPR183,T Cell
+IGF1R,T Cell
+ITFG2,T Cell
+LDHB,T Cell
+LDLRAP1,T Cell
+LEF1,T Cell
+LEF1-AS1,T Cell
+LINC01550,T Cell
+LMO7,T Cell
+LRRC75A,T Cell
+LRRN3,T Cell
+MAL,T Cell
+MAML2,T Cell
+MLXIP,T Cell
+MYC,T Cell
+NDFIP1,T Cell
+NELL2,T Cell
+NOG,T Cell
+NOSIP,T Cell
+NPAT,T Cell
+NPM1,T Cell
+NT5E,T Cell
+OXNAD1,T Cell
+PASK,T Cell
+PDE3B,T Cell
+PDK1,T Cell
+PIK3IP1,T Cell
+PLEKHB1,T Cell
+PRKCQ-AS1,T Cell
+PSIP1,T Cell
+R3HDM4,T Cell
+RACK1,T Cell
+RASGRP2,T Cell
+RCAN3,T Cell
+RIC3,T Cell
+RPS8,T Cell
+SCML4,T Cell
+SELL,T Cell
+SERINC5,T Cell
+SGSM3,T Cell
+SH3YL1,T Cell
+SMAP2,T Cell
+SNED1,T Cell
+SNURF,T Cell
+SPINT2,T Cell
+SPTBN1,T Cell
+STMN3,T Cell
+TCF7,T Cell
+THAP7,T Cell
+THEM4,T Cell
+TMEM123,T Cell
+TMEM204,T Cell
+TMEM63A,T Cell
+TNFSF8,T Cell
+TOMM7,T Cell
+TPCN1,T Cell
+TRABD2A,T Cell
+TRAP1,T Cell
+TRMT1,T Cell
+TXK,T Cell
+UBQLN2,T Cell
+VIPR1,T Cell
+WDR43,T Cell
+ZNF101,T Cell
+ADAM8,T Cell
+ADGRG1,T Cell
+ADRB2,T Cell
+AGTPBP1,T Cell
+AHNAK,T Cell
+ARHGAP25,T Cell
+ARL4C,T Cell
+BIN2,T Cell
+C12ORF75,T Cell
+C1ORF21,T Cell
+CAPN2,T Cell
+CASP8,T Cell
+CD300A,T Cell
+CEP78,T Cell
+CX3CR1,T Cell
+DSTN,T Cell
+EFHD2,T Cell
+EMP3,T Cell
+FCGR3A,T Cell
+FCGR3B,T Cell
+FCRL6,T Cell
+FGFBP2,T Cell
+FGR,T Cell
+FLNA,T Cell
+FUT11,T Cell
+GAB3,T Cell
+GK5,T Cell
+GLUL,T Cell
+GNLY,T Cell
+GZMB,T Cell
+GZMH,T Cell
+ITGAM,T Cell
+KCNAB2,T Cell
+KLRD1,T Cell
+KLRF1,T Cell
+LGALS1,T Cell
+LILRB1,T Cell
+LITAF,T Cell
+LLGL2,T Cell
+LPCAT1,T Cell
+LUZP6,T Cell
+MBP,T Cell
+MTSS1,T Cell
+MYO1F,T Cell
+MYO1G,T Cell
+OSBPL5,T Cell
+PATL2,T Cell
+PIK3R5,T Cell
+PLEK,T Cell
+PLEKHG3,T Cell
+PRKCB,T Cell
+PRSS23,T Cell
+PXN,T Cell
+RAP1B,T Cell
+RAP1GAP2,T Cell
+RAP2B,T Cell
+RASSF1,T Cell
+RGS19,T Cell
+RNF166,T Cell
+S1PR5,T Cell
+SAMD3,T Cell
+SH3BP5,T Cell
+SH3BP5-AS1,T Cell
+SLC2A1,T Cell
+SLC9A3R1,T Cell
+SLCO4C1,T Cell
+SPON2,T Cell
+SRPK2,T Cell
+STK10,T Cell
+SYNE1,T Cell
+TAGLN2,T Cell
+TBX21,T Cell
+TGFBR3,T Cell
+TM4SF19,T Cell
+TM4SF19-TCTEX1D2,T Cell
+TPST2,T Cell
+TTC16,T Cell
+TTC38,T Cell
+USP28,T Cell
+VCL,T Cell
+VEZF1,T Cell
+WDR37,T Cell
+ZEB2,T Cell
+ZEB2-AS1,T Cell
+ZNF600,T Cell
+ABLIM1,T Cell
+ACTN1,T Cell
+C1ORF162,T Cell
+CCR7,T Cell
+CD55,T Cell
+EEF1B2,T Cell
+EIF3L,T Cell
+FAM117B,T Cell
+FHIT,T Cell
+GIMAP5,T Cell
+GIMAP8,T Cell
+GPR183,T Cell
+IL7R,T Cell
+LDLRAP1,T Cell
+LRRN3,T Cell
+MAL,T Cell
+MYC,T Cell
+NELL2,T Cell
+NOSIP,T Cell
+PRKCA,T Cell
+RPS5,T Cell
+RSL1D1,T Cell
+SATB1,T Cell
+SERINC5,T Cell
+SLC40A1,T Cell
+SVIL,T Cell
+TCF7,T Cell
+TESPA1,T Cell
+TMEM204,T Cell
+TRABD2A,T Cell
+TSHZ2,T Cell
+TXK,T Cell
+ANXA2P2,T Cell
+ATP2B1,T Cell
+B3GNT2,T Cell
+BIRC3,T Cell
+CASP2,T Cell
+CCDC141,T Cell
+CCM2,T Cell
+CCR10,T Cell
+CCR4,T Cell
+CCR8,T Cell
+CLDND1,T Cell
+CORO7,T Cell
+CORO7-PAM16,T Cell
+CPNE2,T Cell
+ELK3,T Cell
+F5,T Cell
+FAM110A,T Cell
+FANK1,T Cell
+FCMR,T Cell
+FCRL3,T Cell
+FOXP3,T Cell
+GLRX,T Cell
+HAPLN3,T Cell
+HPGD,T Cell
+IKZF2,T Cell
+IL10RA,T Cell
+IL2RA,T Cell
+ISG20,T Cell
+LMNA,T Cell
+METTL7A,T Cell
+PDP1,T Cell
+PI16,T Cell
+REREP3,T Cell
+RNF214,T Cell
+RTKN2,T Cell
+SAMHD1,T Cell
+SELPLG,T Cell
+SNX20,T Cell
+STAM,T Cell
+TBC1D4,T Cell
+TLDC2,T Cell
+TRIM16,T Cell
+TTC39C,T Cell
+TTN,T Cell
+USP15,T Cell
+ARMH1,T Cell
+SNHG32,T Cell
+SINHCAF,T Cell
+NOP53,T Cell
+SNHG29,T Cell
+SNHG32,T Cell
+SNHG29,T Cell
