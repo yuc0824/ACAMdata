@@ -1,6 +1,6 @@
 # ACAM
 
-The source code and results of performance comparison of ACAM against Garnett, CellAssign, and SingleR.
+The source code and results of performance comparison of ACAM against Garnett, CellAssign, SingleR and scmap.
 
 ## Notes
 
