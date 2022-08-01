@@ -158,3 +158,50 @@ kidney_singleR1 <- kidney_singleR1$SingleR.single.main
 Y_kidney_singleR <- NULL
 Y_kidney_singleR$cellmatch <- kidney_singleR1$labels1
 length(which(Y_kidney_singleR$cellmatch == Y_kidney.raw))
+
+### scmap
+kidney.train_index <- NULL
+kidney.test_index <- NULL
+index <- NULL
+for(i in 1:length(unique(Y_kidney))){
+  set.seed(1)
+  index <- sample(which(Y_kidney == unique(Y_kidney)[i]),
+                  size = round(0.3 * length(which(Y_kidney == unique(Y_kidney)[i]))),
+                  replace = F)
+  kidney.train_index <- c(kidney.train_index, index)
+}
+rm(index)
+kidney.test_index <- c(1:length(Y_kidney))[-kidney.train_index]
+
+kidney.train <- DFtest_kidney[,kidney.train_index]
+kidney.test <- DFtest_kidney[,kidney.test_index]
+Ysc_kidney <- Y_kidney.raw[kidney.train_index]
+sce_kidney.train <- SingleCellExperiment(assays = list(counts = as.matrix(kidney.train)), 
+                                         colData = data.frame(cell_type1 = Ysc_kidney),
+                                         rowData = rownames(kidney.train))#colData原本是Y
+sce_kidney.test <- SingleCellExperiment(assays = list(counts = as.matrix(kidney.test)), 
+                                        colData = data.frame(cell_type1 = c(rep(0, length(kidney.test_index)))),
+                                        rowData = rownames(kidney.train))
+logcounts(sce_kidney.train) <- log2(counts(sce_kidney.train) + 1)
+logcounts(sce_kidney.test) <- log2(counts(sce_kidney.test) + 1)
+rowData(sce_kidney.train)$feature_symbol <- rownames(sce_kidney.train)
+rowData(sce_kidney.test)$feature_symbol <- rownames(sce_kidney.test)
+sce_kidney.train <- selectFeatures(sce_kidney.train, suppress_plot = FALSE)
+
+set.seed(1)
+sce_kidney.train <- indexCell(sce_kidney.train)
+scmapCell_results_kidney <- scmapCell(
+  projection = sce_kidney.test, 
+  list(
+    kidney = metadata(sce_kidney.train)$scmap_cell_index
+  )
+)
+scmapCell_clusters_kidney <- scmapCell2Cluster(
+  scmapCell_results_kidney, 
+  list(
+    as.character(colData(sce_kidney.train)$cell_type1)
+  )
+)
+scmap_kidney <- cbind(Y_kidney.raw[kidney.test_index],scmapCell_clusters_kidney$scmap_cluster_labs)
+length(which(scmap_kidney[,1] == scmap_kidney[,2]))
+length(kidney.test_index)

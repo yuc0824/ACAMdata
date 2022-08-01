@@ -53,6 +53,9 @@ class_kidney <- read.csv("ann_kidney.csv")
 Y_kidney.raw <- class_kidney[match(Y_kidney, class_kidney[,1]),2]
 
 # The proposed method: ACAM. Codes below are the same for all datasets.
+# For Wu dataset, it is randomly split by the following function.
+# set.seed(1)
+# cut_wu <- cut(sample(1:length(Y_wu)),breaks = 5,labels = F)
 
 ### 2 
 # For details, see 'functions/clustering.R'.
