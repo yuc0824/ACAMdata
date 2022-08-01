@@ -1,21 +1,14 @@
 # packages
 
-# packages you may use in our code
+# some packages you may use in our code
 
-library(magrittr)
-library(ggplot2)
-library(dplyr)
-library(Matrix)
 library(SAMEclustering)
 library(xgboost)
-library(Matrix)
-library(Rtsne)
+library(uwot)
 library(igraph)
 library(stringr)
 library(Seurat)
 library(kknn)
-library(umap)
-library(gridExtra)
 library(garnett)
 library(org.Hs.eg.db)
 library(org.Mm.eg.db)
@@ -31,3 +24,4 @@ library(SC3)
 library(cidr)
 library(ADPclust)
 library(SIMLR)
+library(scmap)
