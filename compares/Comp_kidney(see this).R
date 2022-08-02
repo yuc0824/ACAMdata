@@ -1,6 +1,6 @@
 # Kidney comparisons
 
-# Codes of Garnett, CellAssign, and SingleR about kidney dataset.
+# Codes of Garnett, CellAssign, SingleR and scmap about kidney dataset.
 # Codes are similar for all datasets. Thus we only shows codes for one dataset.
 # For packages, see 'functions/packages.R'.
 
