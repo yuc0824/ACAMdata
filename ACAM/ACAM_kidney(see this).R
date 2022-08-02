@@ -99,7 +99,7 @@ type_kidney <- NULL
 info_kidney <- NULL
 gain_kidney <- NULL
 Gain_kidney <- NULL
-Ycol_kidney <- NULL
+
 for(i in 1:length(Y_min_in_kidney)){
   Yclass_kidney[[i]] <- rep(0, length(Ycomb_kidney))
   Yclass_kidney[[i]][which(Ycomb_kidney == Y_min_in_kidney[i])] <- 1
