@@ -5,7 +5,7 @@
 
 # input data
 
-### 1 
+### 1 Data preprocessing
 
 ann <- read.table("annotations_droplet.csv",sep=",",header=TRUE)
 ann[,2] <- as.factor(ann[,2])
@@ -57,14 +57,17 @@ Y_kidney.raw <- class_kidney[match(Y_kidney, class_kidney[,1]),2]
 # set.seed(1)
 # cut_wu <- cut(sample(1:length(Y_wu)),breaks = 5,labels = F)
 
-### 2 
+### 2 Representative cluster identification
+# In the representative cluster identification, we first use five state-of-the-art clustering methods independently to gain consensus subgroups.
+# These five methods are SC3, CIDR, Seurat, tSNE+k-means, and SIMLR. They are aggregated into one function.
 # For details, see 'functions/clustering.R'.
 SELF_kidney <- individual_clustering(inputTags = t(DF_kidney), mt_filter = TRUE,
                                      percent_dropout = 10, SC3 = TRUE, CIDR = TRUE, nPC.cidr = NULL, Seurat = TRUE, nGene_filter = FALSE,
                                      nPC.seurat = NULL, resolution = 0.7, tSNE = TRUE, dimensions = 2, perplexity = 30, SIMLR = TRUE, diverse = TRUE, 
                                      save.results = FALSE, SEED = 123)
 # It takes time to run clustering function. 
-# Louvain results are saved in 'results' file for convenience.
+
+# CommunityMining function can be seen in 'functions/Louvain.R'.
 kidney.comb <- CommunityMining(SELF_kidney)
 
 
@@ -82,12 +85,12 @@ Ycomb_kidney_in <- which(Ycomb_kidney != 0)
 Ycomb_kidney_out <- which(Ycomb_kidney == 0)
 
 
-### 3
+### 3 Cell type annotation of the representative clusters
 DFpca_kidney <- stats::prcomp(DF_kidney, rank = 50)$x
 set.seed(1)
 umap_kidney <- uwot::umap(DFpca_kidney, n_components = 10)
 
-
+# eXtreme Gradient Boosting (XGBoost)
 kidney_import <- colnames(DF_kidney) %>% toupper
 label_kidney <- NULL
 Yclass_kidney <- NULL
@@ -153,8 +156,8 @@ for(i in 1:length(Y_min_in_kidney)){
   rm(gain_kidney)
 }
 
-### 4 
-
+### 4 Classification of the remaining cells
+# kNN
 train.kidney <- cbind(Ycomb_kidney,umap_kidney)[which(Ycomb_kidney !=0), ] %>% as.data.frame()
 test.kidney <- cbind(Ycomb_kidney,umap_kidney)[which(Ycomb_kidney ==0), ] %>% as.data.frame()
 set.seed(1)

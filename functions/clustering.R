@@ -1,20 +1,22 @@
 # Clustering
-
+# 
+# In the representative cluster identification, we first use five state-of-the-art clustering methods independently to gain consensus subgroups.
+# These five methods are SC3, CIDR, Seurat, tSNE+k-means, and SIMLR. They are aggregated into one function.
 # For the following dataset, clustering methods use individual_clustering function in package 'SAMEclustering'.
 # -- Chen, Xin, Gierahn (SEED = 1)
 # -- Kidney, PBMC10X (SEED = 123)
-# in the form 
+# in the form
 # individual_clustering(inputTags = inputTags, mt_filter = TRUE,
 #         percent_dropout = 10, SC3 = TRUE, CIDR = TRUE, nPC.cidr = NULL, Seurat = TRUE, nGene_filter = FALSE,
-#         nPC.seurat = NULL, resolution = 0.7, tSNE = TRUE, dimensions = 2, perplexity = 30, SIMLR = TRUE, diverse = TRUE, 
+#         nPC.seurat = NULL, resolution = 0.7, tSNE = TRUE, dimensions = 2, perplexity = 30, SIMLR = TRUE, diverse = TRUE,
 #         save.results = FALSE, SEED = 123)
-#
-# \url{https://github.com/yycunc/SAMEclustering}
-
-# For the following dataset, an accelerated function named self_clustering is used.
+# 
+# Details can be seen in \url{https://github.com/yycunc/SAMEclustering}
+# 
+# For the following dataset, an accelerated function named self_clustering is used. The function is demonstrated below.
 # -- Wu, Mammary (SEED = 123)
 
-
+#main function
 self_clustering <- function(inputTags, percent_dropout = 10, tsne_min_cells = 200, dimensions = 3,
                             tsne_min_perplexity = 10, perplexity = 30, k_fixed = 15, SEED = 123){
   cluster_number <- NULL
@@ -89,6 +91,7 @@ self_clustering <- function(inputTags, percent_dropout = 10, tsne_min_cells = 20
   return(cluster_results)
 }
 
+#SC3
 sc3_SELF <- function(inputTags, percent_dropout = 10, svm_num_cells = 1000, k_fixed, SEED = 123) 
 {
   message("Performing SC3 clustering...")
