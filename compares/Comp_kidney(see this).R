@@ -231,7 +231,7 @@ write.csv(kidney.markers, 'seurat_kidney.csv')
 # python SCSA.py -d whole.db -i seurat_kidney.csv -s seurat -E -f 1.5 -p 0.01 -o SCSA_seurat_kidney.txt -m txt -M user_kidney.txt -N -b
 # The output file is SCSA_seurat_kidney.txt.
 SCSA_seurat_kidney <- read.table('SCSA_seurat_kidney.txt', sep = '\t', header = T, check.names = F)
-SCSA_seurat_kidney1 <- NULL #类标签
+SCSA_seurat_kidney1 <- NULL 
 for(i in 0:max(SCSA_seurat_kidney$Cluster)){
   for(j in 1:nrow(SCSA_seurat_kidney)){
     if(SCSA_seurat_kidney[j,3] == i){
@@ -281,7 +281,7 @@ write.csv(res,file="scran_kidney.csv",quote=FALSE)
 # python SCSA.py -d whole.db -s scran -i scran_kidney.csv -E -p 0.05 -f 1.5 -o SCSA_scran_kidney.txt -m txt -M user_kidney.txt -N -b
 # The output file is SCSA_scran_kidney.txt.
 SCSA_scran_kidney <- read.table('SCSA_scran_kidney.txt', sep = '\t', header = T, check.names = F)
-SCSA_scran_kidney1 <- NULL #类标签
+SCSA_scran_kidney1 <- NULL 
 for(i in 0:max(SCSA_scran_kidney$Cluster)){
   for(j in 1:nrow(SCSA_scran_kidney)){
     if(SCSA_scran_kidney[j,3] == i){
