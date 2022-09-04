@@ -116,45 +116,53 @@ for(i in 1:length(Y_min_in_kidney)){
       DFclass_kidney <- rbind(DFclass_kidney, DFclass_kidney[which(Ycomb_kidney == Y_min_in_kidney[i]),])
     }
   }
-  M_kidney[[i]] <- xgb.DMatrix(data = DFclass_kidney[,-1] %>% as.matrix,label = DFclass_kidney[,1])
-  X_kidney[[i]] <- xgboost(M_kidney[[i]], 
-                           max.depth = 1, 
-                           nround = 50, 
-                           objective = 'binary:hinge', 
-                           eval_metric = "auc")
-  IM_kidney[[i]] <- xgb.importance(kidney_import, model = X_kidney[[i]])
-  IM_kidney[[i]][,2] <- as.vector(IM_kidney[[i]][,2])
-  for(k in 1:nrow(IM_kidney[[i]])){
-    this_gene <- IM_kidney[[i]][k,1]
-    this_mean <- mean(DF_kidney[which(Ycomb_kidney == Y_min_in_kidney[i]),
-                                which(as.factor(this_gene) == dimnames(DF_kidney)[[2]])])
-    other_mean <- mean(DF_kidney[which(Ycomb_kidney != Y_min_in_kidney[i]),
-                                 which(as.factor(this_gene) == dimnames(DF_kidney)[[2]])])
-    if(other_mean > this_mean){
-      IM_kidney[[i]][k,2] <- 0
-    }
-  }
-  info_kidney[[i]] <- 0
-  for(k in 1:nrow(IM_kidney[[i]])){
-    info_kidney[[i]] <- c(info_kidney[[i]], which(as.data.frame(GM_kidney)[,1]  == as.data.frame(IM_kidney[[i]])[k,1]))
-  }
-  info_kidney[[i]] <- info_kidney[[i]][-1]
-  
-  type_kidney[[i]] <- GM_kidney[info_kidney[[i]],2]
-  
-  gain_kidney <- NULL
-  mid_gene <- NULL
-  for(j in 1:length(unique(type_kidney[[i]]))){
-    mid_gene <- which(GM_kidney[,2] == unique(type_kidney[[i]])[j])
-    mid_index <- which(as.data.frame(IM_kidney[[i]])[,1] %in% as.vector(GM_kidney[mid_gene,1]))
-    gain_kidney[j] <- sum(IM_kidney[[i]][mid_index,2])
+
+  this_mean <- apply(DF_kidney[which(Ycomb_kidney == Y_min_in_kidney[i]), ],2,mean)
+  other_mean <- apply(DF_kidney[which(Ycomb_kidney != Y_min_in_kidney[i]),],2,mean)
+  if(length(which(this_mean > other_mean)) > 0){
+    DFclass_kidney <- cbind(DFclass_kidney[,1],DFclass_kidney[,-1][,which(this_mean > other_mean)])
+    M_kidney[[i]] <- xgb.DMatrix(data = DFclass_kidney[,-1] %>% as.matrix,label = DFclass_kidney[,1])
+    X_kidney[[i]] <- xgboost(M_kidney[[i]], 
+                              max.depth = 1, 
+                              eta = 0.5, 
+                              nround = 50, 
+                              objective = 'binary:hinge', 
+                              eval_metric = "auc")
+    IM_kidney[[i]] <- xgb.importance(kidney_import[which(this_mean > other_mean)], model = X_kidney[[i]])
+    IM_kidney[[i]][,2] <- as.vector(IM_kidney[[i]][,2])
     
+    info_kidney[[i]] <- 0
+    for(k in 1:nrow(IM_kidney[[i]])){
+      info_kidney[[i]] <- c(info_kidney[[i]], which(as.data.frame(GM_kidney)[,1]  == as.data.frame(IM_kidney[[i]])[k,1]))
+    }
+    info_kidney[[i]] <- info_kidney[[i]][-1]
+    
+    type_kidney[[i]] <- GM_kidney[info_kidney[[i]],2]
+    
+    gain_kidney <- NULL
+    mid_gene <- NULL
+    for(j in 1:length(unique(type_kidney[[i]]))){
+      mid_gene <- which(GM_kidney[,2] == unique(type_kidney[[i]])[j])
+      #mid_index <- which(type_kidney[[i]] == unique(type_kidney[[i]])[j])
+      mid_index <- which(as.data.frame(IM_kidney[[i]])[,1] %in% as.vector(GM_kidney[mid_gene,1]))
+      gain_kidney[j] <- sum(IM_kidney[[i]][mid_index,2])
+      
+    }
+    Gain_kidney[[i]] <- data.frame(unique(type_kidney[[i]]), gain_kidney)
+    Gain_kidney[[i]] <- Gain_kidney[[i]][order(Gain_kidney[[i]][,2],decreasing = T),]
+    if(nrow(Gain_kidney[[i]]) == 1){
+      label_kidney[i] <- Gain_kidney[[i]][1,1]
+    }else if(Gain_kidney[[i]][1,2] >= Gain_kidney[[i]][2,2] * 1.0){
+      label_kidney[i] <- Gain_kidney[[i]][1,1]
+    }else{
+      label_kidney[i] <- 'Unknown'
+    }
+    rm(gain_kidney)
+  }else{
+    label_kidney[i] <- 'Unknown'
   }
-  Gain_kidney[[i]] <- data.frame(unique(type_kidney[[i]]), gain_kidney)
-  Gain_kidney[[i]] <- Gain_kidney[[i]][order(Gain_kidney[[i]][,2],decreasing = T),]
-  label_kidney[i] <- Gain_kidney[[i]][1,1]
-  rm(gain_kidney)
 }
+label_kidney %>% as.matrix(.,nc = 1)
 
 ### 4 Classification of the remaining cells
 # kNN

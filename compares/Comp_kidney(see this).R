@@ -87,7 +87,7 @@ length(which(pData(cds1_kidney)$cluster_ext_type == pData(cds1_kidney)$FACS_type
 
 
 
-### cellassign
+### CellAssign
 sce_kidney <- SingleCellExperiment(assays = list(counts = DFtest_kidney),
                                    colData = Y_kidney.raw,
                                    rowData = rownames(DFtest_kidney))
@@ -96,8 +96,6 @@ gene_index_kidney <- which(rownames(DFtest_kidney) %in% rownames(bigGM_kidney))
 sce_kidney_Size_factors <- edgeR::calcNormFactors(counts(sce_kidney))
 
 sce_kidney <- sce_kidney[gene_index_kidney,]
-
-
 
 library(reticulate)
 # GPU options changed to accelerate cellassign
@@ -159,49 +157,149 @@ Y_kidney_singleR <- NULL
 Y_kidney_singleR$cellmatch <- kidney_singleR1$labels1
 length(which(Y_kidney_singleR$cellmatch == Y_kidney.raw))
 
-### scmap
-kidney.train_index <- NULL
-kidney.test_index <- NULL
-index <- NULL
-for(i in 1:length(unique(Y_kidney))){
-  set.seed(1)
-  index <- sample(which(Y_kidney == unique(Y_kidney)[i]),
-                  size = round(0.3 * length(which(Y_kidney == unique(Y_kidney)[i]))),
-                  replace = F)
-  kidney.train_index <- c(kidney.train_index, index)
+
+### Seurat TransferData
+kidney.reference <- bigGM_kidney
+kidney.query <- DFtest_kidney
+kidney.reference <- CreateSeuratObject(kidney.reference)
+kidney.reference <- NormalizeData(kidney.reference)
+kidney.reference <- FindVariableFeatures(kidney.reference)
+kidney.reference <- ScaleData(kidney.reference)
+kidney.query <- CreateSeuratObject(kidney.query)
+kidney.query <- FindVariableFeatures(kidney.query)
+kidney.query <- ScaleData(kidney.query)
+anchors <- FindTransferAnchors(reference = kidney.reference, query = kidney.query,
+                               k.score = (dim(bigGM_kidney)[2]-1), dims = 1:(dim(bigGM_kidney)[2]-1), 
+                               npcs = dim(bigGM_kidney)[2]-1)
+weight.max <- nrow(anchors@anchors) - 1
+weight.list_kidney <- NULL
+for(weight in 10:weight.max){ 
+  kidney.predictions <- try(TransferData(anchorset = anchors, refdata = colnames(kidney.reference), k.weight = weight))
+  if('try-error' %in% class(kidney.predictions)){
+    next
+  }else{
+    kidney.predictions <- kidney.predictions$predicted.id
+    weight.list_kidney <- rbind(weight.list_kidney, c(weight, length(which(Y_kidney.raw == kidney.predictions))))}
 }
-rm(index)
-kidney.test_index <- c(1:length(Y_kidney))[-kidney.train_index]
+weight <- weight.list_kidney[which.max(weight.list_kidney[,2]),1]
+kidney.predictions <- TransferData(anchorset = anchors, refdata = colnames(kidney.reference), k.weight = weight)
+kidney.predictions <- kidney.predictions$predicted.id
+length(which(Y_kidney.raw == kidney.predictions))
 
-kidney.train <- DFtest_kidney[,kidney.train_index]
-kidney.test <- DFtest_kidney[,kidney.test_index]
-Ysc_kidney <- Y_kidney.raw[kidney.train_index]
-sce_kidney.train <- SingleCellExperiment(assays = list(counts = as.matrix(kidney.train)), 
-                                         colData = data.frame(cell_type1 = Ysc_kidney),
-                                         rowData = rownames(kidney.train))#colData原本是Y
-sce_kidney.test <- SingleCellExperiment(assays = list(counts = as.matrix(kidney.test)), 
-                                        colData = data.frame(cell_type1 = c(rep(0, length(kidney.test_index)))),
-                                        rowData = rownames(kidney.train))
-logcounts(sce_kidney.train) <- log2(counts(sce_kidney.train) + 1)
-logcounts(sce_kidney.test) <- log2(counts(sce_kidney.test) + 1)
-rowData(sce_kidney.train)$feature_symbol <- rownames(sce_kidney.train)
-rowData(sce_kidney.test)$feature_symbol <- rownames(sce_kidney.test)
-sce_kidney.train <- selectFeatures(sce_kidney.train, suppress_plot = FALSE)
 
-set.seed(1)
-sce_kidney.train <- indexCell(sce_kidney.train)
-scmapCell_results_kidney <- scmapCell(
-  projection = sce_kidney.test, 
-  list(
-    kidney = metadata(sce_kidney.train)$scmap_cell_index
-  )
-)
-scmapCell_clusters_kidney <- scmapCell2Cluster(
-  scmapCell_results_kidney, 
-  list(
-    as.character(colData(sce_kidney.train)$cell_type1)
-  )
-)
-scmap_kidney <- cbind(Y_kidney.raw[kidney.test_index],scmapCell_clusters_kidney$scmap_cluster_labs)
-length(which(scmap_kidney[,1] == scmap_kidney[,2]))
-length(kidney.test_index)
+### deCS
+kidney.data <- DFtest_kidney
+kidney.data <- CreateSeuratObject(kidney.data)
+kidney.data <- FindVariableFeatures(kidney.data)
+kidney.data <- ScaleData(kidney.data)
+kidney.data <- RunPCA(kidney.data)
+kidney.data <- FindNeighbors(kidney.data, dims = 1:10) 
+kidney.data <- FindClusters(kidney.data, resolution = 0.5)
+kidney.data <- RunUMAP(kidney.data, dims = 1:10) 
+
+kidney.markers <- FindAllMarkers(kidney.data, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+top10 <- kidney.markers %>% group_by(cluster) %>% top_n(n = 10, wt = avg_log2FC)
+kidney_top10_markers_list = kidney.markers[which(kidney.markers$gene %in% top10$gene),] 
+GM1_kidney <- data.frame(Cell_type = GM_kidney[,2], Marker_gene = GM_kidney[,1])
+kidney_deCS_FET_CellMatch <- deCS.fisher(kidney_top10_markers_list, GM1_kidney,
+                                         type = "list", 
+                                         p.adjust.methods = "bonferroni",
+                                         p_threshold = 1e-3, 
+                                         cell_type_threshold = 0.05)
+decs_kidney <- rep(0, length(Y_kidney.raw))
+for(i in 0:(length(unique(kidney.data$seurat_clusters))-1)){
+  decs_kidney[which(kidney.data$seurat_clusters == i)] <- kidney_deCS_FET_CellMatch$Cell_labels[i+1]
+}
+length(which(decs_kidney == Y_kidney.raw))
+
+
+### SCSA
+kidney.data <- DFtest_kidney
+kidney.data <- CreateSeuratObject(kidney.data)
+kidney.data <- FindVariableFeatures(kidney.data)
+kidney.data <- ScaleData(kidney.data)
+kidney.data <- RunPCA(kidney.data)
+
+kidney.data <- FindNeighbors(kidney.data, dims = 1:10) 
+kidney.data <- FindClusters(kidney.data, resolution = 0.5)
+kidney.data <- RunUMAP(kidney.data, dims = 1:10) 
+
+kidney.markers <- FindAllMarkers(kidney.data)
+
+write.csv(kidney.markers, 'seurat_kidney.csv')
+# Here seurat_kidney.csv should be put into the python code below:
+# python SCSA.py -d whole.db -i seurat_kidney.csv -s seurat -E -f 1.5 -p 0.01 -o SCSA_seurat_kidney.txt -m txt -M user_kidney.txt -N -b
+# The output file is SCSA_seurat_kidney.txt.
+SCSA_seurat_kidney <- read.table('SCSA_seurat_kidney.txt', sep = '\t', header = T, check.names = F)
+SCSA_seurat_kidney1 <- NULL #类标签
+for(i in 0:max(SCSA_seurat_kidney$Cluster)){
+  for(j in 1:nrow(SCSA_seurat_kidney)){
+    if(SCSA_seurat_kidney[j,3] == i){
+      typea <- SCSA_seurat_kidney[j,1]
+      typeb <- SCSA_seurat_kidney[j+1,1]
+      if(SCSA_seurat_kidney[j+1,2] < 0 || 2 * SCSA_seurat_kidney[j+1,2] < SCSA_seurat_kidney[j,2] || SCSA_seurat_kidney[j+1,3] != i){
+        SCSA_seurat_kidney1 <- c(SCSA_seurat_kidney1,SCSA_seurat_kidney[j,1])      
+      }else{
+        SCSA_seurat_kidney1 <- c(SCSA_seurat_kidney1,'unassigned')
+      }
+      break
+    }
+  }
+}
+SCSA_seurat_kidney2 <- rep('unassigned',length(Y_kidney.raw)) 
+for(i in 0:max(SCSA_seurat_kidney$Cluster)){
+  SCSA_seurat_kidney2[which(kidney.data$seurat_clusters == i)] <- SCSA_seurat_kidney1[i+1]
+}
+length(which(SCSA_seurat_kidney2 == Y_kidney.raw))
+
+
+
+kidney.query <- DFtest_kidney
+sce_kidney.query <- SingleCellExperiment(assays = list(counts = as.matrix(kidney.query),
+                                                       logcounts = as.matrix(kidney.query)),
+                                         colData = data.frame(cell_type1 = c(rep(0, length(Y_kidney.raw)))),
+                                         rowData = rownames(DFtest_kidney))
+markers <- findMarkers(sce_kidney.query, groups = kidney.data$seurat_clusters, pval.type="all")#换test.type居然不行
+res <- data.frame()
+for (i in names(markers)){
+  predata <- subset(markers[[i]],select=c(p.value,FDR))
+  meandata <- as.matrix(apply(subset(markers[[i]],select=-c(p.value,FDR)),1,mean))
+  if (length(res) == 0){
+    colnames(meandata) <- paste("LFC",i,sep="_")
+    colnames(predata) <- paste(names(predata),i,sep="_")
+    res <- cbind(predata,meandata)
+  }else{
+    predata <- predata[rownames(res),]
+    meandata <- as.matrix(meandata[rownames(res),])
+    colnames(meandata) <- paste("LFC",i,sep="_")
+    colnames(predata) <- paste(names(predata),i,sep="_")
+    res <- cbind(res,predata,meandata)
+  }
+}
+write.csv(res,file="scran_kidney.csv",quote=FALSE)
+# Here scran_kidney.csv should be put into the python code below:
+# python SCSA.py -d whole.db -s scran -i scran_kidney.csv -E -p 0.05 -f 1.5 -o SCSA_scran_kidney.txt -m txt -M user_kidney.txt -N -b
+# The output file is SCSA_scran_kidney.txt.
+SCSA_scran_kidney <- read.table('SCSA_scran_kidney.txt', sep = '\t', header = T, check.names = F)
+SCSA_scran_kidney1 <- NULL #类标签
+for(i in 0:max(SCSA_scran_kidney$Cluster)){
+  for(j in 1:nrow(SCSA_scran_kidney)){
+    if(SCSA_scran_kidney[j,3] == i){
+      typea <- SCSA_scran_kidney[j,1]
+      typeb <- SCSA_scran_kidney[j+1,1]
+      if(SCSA_scran_kidney[j+1,2] < 0 || 2 * SCSA_scran_kidney[j+1,2] < SCSA_scran_kidney[j,2] || SCSA_scran_kidney[j+1,3] != i){
+        SCSA_scran_kidney1 <- c(SCSA_scran_kidney1,SCSA_scran_kidney[j,1])      
+      }else{
+        SCSA_scran_kidney1 <- c(SCSA_scran_kidney1,'unassigned')
+      }
+      break
+    }
+  }
+}
+SCSA_scran_kidney2 <- rep('unassigned',length(Y_kidney.raw)) 
+for(i in 0:max(SCSA_scran_kidney$Cluster)){
+  SCSA_scran_kidney2[which(kidney.data$seurat_clusters == i)] <- SCSA_scran_kidney1[i+1]
+}
+length(which(SCSA_scran_kidney2 == Y_kidney.raw))
+
+
