@@ -13,5 +13,5 @@ The source code and results of performance comparison of ACAM against Garnett, C
   - 'Y_xxx': The numeric form of 'Y_xxx.raw'.
   - 'xxx.comb': Clustering results for checking convenience, since the time cost of clustering may be long.
   - 'umap_xxx': The umap dimensional reduction form of the data.
-  - 'cds1_xxx', 'Y_xxx_cellassign', 'Y_xxx_singleR', 'scmap_xxx': comparison results of Garnett, CellAssign, SingleR and scmap respectively.
+  - 'cds1_xxx', 'Y_xxx_cellassign', 'Y_xxx_singleR', 'xxx.predictions','deCS_xxx','SCSA_seurat_xxx','SCSA_scran_xxx': comparison results of Garnett, CellAssign, SingleR, Seurat transferData, deCS, SCSA_seurat and SCSA_scran respectively.
 - Consensus tables of cell types and numbers between 'Y_xxx.raw' and 'Y_xxx' are in the fold [celltype](./celltype/) for some dataset needed.
