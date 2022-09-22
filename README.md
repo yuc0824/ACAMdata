@@ -1,6 +1,6 @@
 # ACAM
 
-The source code and results of performance comparison of ACAM against Garnett, CellAssign, SingleR and scmap.
+The source code and results of performance comparison of ACAM against Garnett, CellAssign, SingleR, Seurat transferData, deCS, SCSA.
 
 ## Notes
 
@@ -15,3 +15,4 @@ The source code and results of performance comparison of ACAM against Garnett, C
   - 'umap_xxx': The umap dimensional reduction form of the data.
   - 'cds1_xxx', 'Y_xxx_cellassign', 'Y_xxx_singleR', 'xxx.predictions','deCS_xxx','SCSA_seurat_xxx','SCSA_scran_xxx': comparison results of Garnett, CellAssign, SingleR, Seurat transferData, deCS, SCSA_seurat and SCSA_scran respectively.
 - Consensus tables of cell types and numbers between 'Y_xxx.raw' and 'Y_xxx' are in the fold [celltype](./celltype/) for some dataset needed.
+- Figures of the flowchart and visualizations are in the fole [vignettes](./vignettes/).
