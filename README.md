@@ -7,8 +7,6 @@ Automatic Cell type Annotation Method (`ACAM`) is proposed based on  marker gene
 ![flowchart of ACAM](vignettes/ACAM_flowchart.png)
 
 # Notes
-
-- <>
 - Markers of different forms to cater for the use of different methods. They are given in the fold begin with markers.
 - In the fold [results](./results/):
   - 'Y_xxx.raw': The original labels.
