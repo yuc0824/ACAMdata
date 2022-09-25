@@ -25,7 +25,7 @@ Annotation performance comparison. Results of the  compared methods using four e
 ![bar_total](vignettes/bar_total.png)
 
 Rank of the eight methods. The performance rank of each method  according to four performance metrics: Accuracy, Balanced Accuracy, Macro F1-Score and MCC on seven datasets is shown.  Lower rank represents better performance (one is the best and eight is the worst).
-![total_rank](vignettes/toral_rank.png)
+![total_rank](vignettes/total_rank.png)
 
 Two-dimensional visualization of the annotation results for dataset Kidney using UMAP.
 ![vis2_kidney](vignettes/vis2_kidney.png)
