@@ -22,15 +22,16 @@ Automatic Cell type Annotation Method (`ACAM`) is proposed based on  marker gene
 
 # Comparison results and visualizations
 Annotation performance comparison. Results of the  compared methods using four evaluation metrics: Accuracy, Balanced Accuracy, Macro F1-Score and MCC on seven real-world datasets are shown.
-![vis2_kidney](vignettes/vis2_kidney.png)
+![bar_total](vignettes/bar_total.png)
 
 Rank of the eight methods. The performance rank of each method  according to four performance metrics: Accuracy, Balanced Accuracy, Macro F1-Score and MCC on seven datasets is shown.  Lower rank represents better performance (one is the best and eight is the worst).
-![vis2_mammary](vignettes/vis2_mammary.png)
+![total_rank](vignettes/toral_rank.png)
 
 Two-dimensional visualization of the annotation results for dataset Kidney using UMAP.
+![vis2_kidney](vignettes/vis2_kidney.png)
+
+Two-dimensional visualization of the annotation results for dataset  Kidney using UMAP.
+![vis2_mammary](vignettes/vis2_mammary.png)
+
+Two-dimensional visualization of the annotation results for dataset  Kidney using UMAP.
 ![vis2_wu](vignettes/vis2_wu.png)
-
-Two-dimensional visualization of the annotation results for dataset  Kidney using UMAP.
-
-
-Two-dimensional visualization of the annotation results for dataset  Kidney using UMAP.
