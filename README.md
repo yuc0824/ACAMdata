@@ -7,7 +7,7 @@ Automatic Cell type Annotation Method (`ACAM`) is proposed based on  marker gene
 ![flowchart of ACAM](vignettes/ACAM_flowchart.png)
 
 ## Materials
-- **Celltype**: Consensus tables of cell types and numbers between 'Y_xxx.raw' and 'Y_xxx' are in the fold [celltype](./celltype/) for some dataset needed.
+- **celltype**: Consensus tables of cell types and numbers between 'Y_xxx.raw' and 'Y_xxx' are in the fold [celltype](./celltype/) for some dataset needed.
 - **markers**: Markers of different forms to cater for the use of different methods. They are given in the fold begin with markers.
 - **results**: In the fold [results](./results/):
   - 'Y_xxx.raw': The original labels.
