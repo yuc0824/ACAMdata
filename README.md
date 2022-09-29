@@ -15,6 +15,7 @@ Automatic Cell type Annotation Method (`ACAM`) is proposed based on  marker gene
   - 'xxx.comb': Clustering results for checking convenience, since the time cost of clustering may be long.
   - 'umap_xxx': The umap dimensional reduction form of the data.
   - 'cds1_xxx', 'Y_xxx_cellassign', 'Y_xxx_singleR', 'xxx.predictions','deCS_xxx','SCSA_seurat_xxx','SCSA_scran_xxx': comparison results of Garnett, CellAssign, SingleR, Seurat transferData, deCS, SCSA_seurat and SCSA_scran respectively.
+  - 'Yfinal_xxx': ACAM annotation results.
 - **vignettes**: Figures of the flowchart and visualizations are in the fold [vignettes](./vignettes/).
 
 ## Comparison results and visualizations
